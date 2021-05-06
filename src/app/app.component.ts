@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, isDevMode, OnInit } from '@angular/core';
+import { Logger } from './core/logger.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'ay-code-challenge';
+export class AppComponent implements OnInit {
+  title = 'Twitter';
+
+  public constructor(private _log: Logger) {
+   }
+   
+  public ngOnInit() {
+    if (!isDevMode()) {
+      this._log.enableProductionMode();
+    }
+  }
 }

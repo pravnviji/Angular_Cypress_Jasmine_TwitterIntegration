@@ -3,11 +3,16 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "prod": "ng build --prod",
+    "e2e": "ng e2e",
+    "build:stats": "ng build --stats-json",
+    "format:test": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --list-different",
+    "format:write": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --write",
+    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/ay-code-challenge/stats.json"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +24,7 @@
     "@angular/platform-browser": "~11.1.2",
     "@angular/platform-browser-dynamic": "~11.1.2",
     "@angular/router": "~11.1.2",
+    "ng-mocks": "^11.10.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
@@ -34,12 +40,15 @@
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.2.0",
     "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
+    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-jasmine": "~3.3.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "prettier": "^2.2.1",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.1.2"
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "~4.1.2",
+    "webpack-bundle-analyzer": "^4.4.1"
   }
 }
