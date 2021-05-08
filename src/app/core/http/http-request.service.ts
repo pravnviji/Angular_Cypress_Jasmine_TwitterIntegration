@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -16,8 +17,10 @@ export class HttpRequestService {
    * @param [header] 
    * @returns get 
    */
-  public get(url: string, header?: object): Observable<Object> {
+  public get(path: string, header?: object): Observable<Object> {
+    console.log(environment.serverUrl);
     header = header ?? this._header;
+    const url = environment.serverUrl + path;
     return this._http.get(url, header);
   }
 
@@ -28,8 +31,9 @@ export class HttpRequestService {
    * @param [header] 
    * @returns post 
    */
-  public post(url: string, body: object, header?: object): Observable<Object> {
+  public post(path: string, body: object, header?: object): Observable<Object> {
     header = header ?? this._header;
+    const url = environment.serverUrl + path;
     return this._http.post(url, body, header);
   }
 
@@ -40,8 +44,9 @@ export class HttpRequestService {
    * @param [header] 
    * @returns put 
    */
-  public put(url: string, body?: object, header?: object): Observable<Object> {
+  public put(path: string, body?: object, header?: object): Observable<Object> {
     header = header ?? this._header;
+    const url = environment.serverUrl + path;
     return this._http.put(url, body, header);
   }
 
@@ -52,11 +57,12 @@ export class HttpRequestService {
    * @param [requestBody] 
    * @returns delete 
    */
-  public delete(url: string, header?: object, requestBody?: object): Observable<Object> {
+  public delete(path: string, header?: object, requestBody?: object): Observable<Object> {
     const options = {
       headers: header === undefined ? this._header : new HttpHeaders(header as { [key: string]: string | string[] }),
       body: requestBody,
     };
+    const url = environment.serverUrl + path;
     return this._http.request('delete', url, options);
   }
 }

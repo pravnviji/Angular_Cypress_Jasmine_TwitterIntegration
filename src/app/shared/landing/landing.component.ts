@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { HttpRequestService } from '../../core/http/http-request.service';
 /**
  *
  *
@@ -11,10 +11,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.css']
 })
-export class LandingComponent {
+export class LandingComponent implements OnInit{
 
   public isSidebarActive = false;
   public isContainerActive = false;
+
+  public constructor(private _http: HttpRequestService) { }
+  ngOnInit(): void {
+      console.log("LandingComponent");
+      this._http.get("/test").subscribe((res) => {
+        console.log(res);
+      });
+  }
 
   /**
    * @function sidebarToggleClass
@@ -24,4 +32,5 @@ export class LandingComponent {
       this.isSidebarActive = !this.isSidebarActive;
       this.isContainerActive = !this.isContainerActive;
   }
+
 }
