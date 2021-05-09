@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall":"cd $(pwd)",
+    "preinstall": "cd $(pwd)",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bearer-token-parser": "^1.0.2",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
