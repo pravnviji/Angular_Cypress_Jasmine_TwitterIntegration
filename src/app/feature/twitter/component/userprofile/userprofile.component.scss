@@ -1,0 +1,15 @@
+.app-userprofile {
+	
+	height: 100%;
+	width: 30%;
+	position: fixed;
+	z-index: 1;
+	top: 20;
+	overflow-x: hidden;
+	padding-top: 20px;
+
+    &__left {
+		left: 0;
+		background-color:aqua;
+    }
+}

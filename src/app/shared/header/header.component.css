@@ -1,25 +1,18 @@
 .header_block{
     min-height: 55px;
+    margin: -10px 0px 0px -10px;
     background:#000 linear-gradient(-35deg, #0066a1 0%, #003478 40%, #081026 100%) repeat scroll 0 0;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#081026', endColorstr='#0066a1', GradientType=1);
         background-color: #2b86b2;
 }
 
-.header_block .col-sm-4{
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .header_block h2 {    
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-size: 22% auto;
-    height: 45%;
-    width: 65%;
-    display: inline-block;
-    margin: 2% 1.5%;
-    font-size: 18px;
+    margin: auto;
+    font-size: 25px;
     color: #fff;
     font-family: centrale-sans;
+    text-align: center;
+    padding: 15px;
 }
 
 .header_block .pageMenu {
@@ -70,5 +63,4 @@
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    margin-left: 20px;
 }

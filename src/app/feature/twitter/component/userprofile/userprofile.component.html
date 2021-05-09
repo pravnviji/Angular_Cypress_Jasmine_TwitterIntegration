@@ -1,0 +1,16 @@
+
+<ng-container *ngIf="(userProfileAsyncResult$ | async) as userProfile">
+	<!--{{userProfile?.name}}
+	{{userProfile?.id}}
+	{{userProfile?.profile_image_url}}
+	{{userProfile?.location}}
+	{{userProfile?.screen_name}} -->
+<div class="app-userprofile app-userprofile__left">
+	<div class="centered">
+	  <img [src]="userProfile?.profile_image_url" alt="Twitter Avatar">
+	  <h2>{{userProfile?.name}} - {{userProfile?.id}}</h2>
+	  <p>{{userProfile?.location}} </p>
+	</div>
+  </div>
+
+</ng-container>

@@ -1,19 +1,30 @@
-
 import { Injectable } from '@angular/core';
-import {HttpRequestService} from '../../../core/http/http-request.service';
+import { Observable, BehaviorSubject } from 'rxjs';
+import { map, tap } from 'rxjs/operators';
+
+import { HttpRequestService } from '../../../core/http/http-request.service';
+import { ITweetUserProfile } from './twitter-feed.interface';
+import { Logger } from '../../../core/logger.service';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root',
 })
+export class TwitterService {
+    // tslint:disable-next-line: variable-name
+    constructor(private _logger: Logger, private _http: HttpRequestService) {}
+    async getTimeline() {
+        await this._http.get('home_timeline').toPromise();
+    }
 
-export class TwitterService extends  HttpRequestService{
-  
-  async getTimeline() {
-     await this.get('home_timeline').toPromise();
-   }
-  
-   async getMentions() {
-      await this.get('mention_timeline').toPromise();
-   }
-  
- }
+    async getMentions() {
+        await this._http.get('mention_timeline').toPromise();
+    }
+
+    getUserProfile(): Observable<any> {
+        this._logger.debug('getUserProfile');
+        return this._http.get(`profile_info`).pipe(tap(mapGetUserProfile));
+    }
+}
+
+export const mapGetUserProfile = (result): ITweetUserProfile =>
+    !result.length ? null : result;

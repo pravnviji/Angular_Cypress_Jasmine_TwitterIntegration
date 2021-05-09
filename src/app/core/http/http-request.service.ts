@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { environment } from '../../../environments/environment';
+import { Logger } from '../../core/logger.service';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +10,9 @@ import { environment } from '../../../environments/environment';
 export class HttpRequestService {
   private _header: HttpHeaders = new HttpHeaders({ responseType: 'JSON' });
 
-  constructor(private _http: HttpClient) { }
+  constructor(private _http: HttpClient,private _logger: Logger) {
+    this._logger.debug(`HttpRequestService`, environment.serverUrl);
+   }
 
   /**
    * Gets http request service
@@ -18,7 +21,6 @@ export class HttpRequestService {
    * @returns get 
    */
   public get(path: string, header?: object): Observable<Object> {
-    console.log(environment.serverUrl);
     header = header ?? this._header;
     const url = environment.serverUrl + path;
     return this._http.get(url, header);

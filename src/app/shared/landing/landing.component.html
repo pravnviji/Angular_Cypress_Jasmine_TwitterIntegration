@@ -1,20 +1,5 @@
 <div class="main_conatiner">
     <app-header></app-header>
-    <div class="clearfix"> </div>
-    
-    <section class="dashboard_container">
-        <div class="dashboard_left" [class.active]="!isSidebarActive">
-            <app-leftpane (changeToggleEvent)="sidebarToggleClass()"></app-leftpane>
-        </div>
-        <div class="dashboard_right" >
-            <div class="col-sm-12">
-                Test dashboard {{conditionalAsyncResult?.status | json}}
-                
-                    <router-outlet></router-outlet>
-            </div>
-        </div>
-    </section>
-    <div class="clearfix"> </div>
+    <router-outlet name="twitter-main"></router-outlet>
 </div>
-
 <app-loader></app-loader>

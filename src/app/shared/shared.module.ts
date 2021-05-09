@@ -14,6 +14,7 @@ import { CommonService } from './services/common.service';
 
 import { LoaderService } from './loader/service/loader.service';
 import { LoaderInterceptor } from './loader/service/loader.interceptor';
+import { MainComponent, UserprofileComponent } from '../feature/twitter/component';
 
 @NgModule({
   imports: [
@@ -25,7 +26,9 @@ import { LoaderInterceptor } from './loader/service/loader.interceptor';
     AppLoaderComponent,
     HeaderComponent,
     LeftpaneComponent,
-    LandingComponent
+    LandingComponent,
+    MainComponent,
+    UserprofileComponent
   ],
   providers: [
     CommonService,

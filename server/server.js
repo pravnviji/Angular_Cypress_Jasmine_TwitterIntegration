@@ -11,7 +11,7 @@ const client = new Twitter({
 });
 
 const bearerToken =
-'Bearer %AAAAAAAAAAAAAAAAAAAAAIiNPQEAAAAA1j4UWrQ5MPwr28KczyUrfjxOjmM%3Dr1JiGb2P7FwhawjaSJaLc5rFvNGJaZpFhnqLSOTP2ZiQ1bHcl1';
+'Bearer AAAAAAAAAAAAAAAAAAAAAIiNPQEAAAAAFwTjQZOBJHY3ifsxh4evG5Nlof4%3DPMlNkO96bk3keRLVFwyyb4XMr58R3Q52WZb2paDEdxRcuUCjjh';
 
 
 app.use(require('cors')());

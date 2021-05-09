@@ -83,7 +83,7 @@ export class Logger {
    * @description log messages and events
    */
   private log(source: string, func: (...args: any[]) => void, level: LogLevel, objects: any[]) {
-    const log = ['[' + source + ']'].concat(objects);
+    const log = ['[' + source + '] ::'].concat(objects);
     if (level <= Logger.level) {
       func.apply(console, log);
       Logger.outputs.forEach((output) => output.apply(output, [source, level, objects]));
