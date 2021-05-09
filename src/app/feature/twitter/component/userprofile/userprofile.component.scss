@@ -1,15 +1,48 @@
 .app-userprofile {
-	
-	height: 100%;
-	width: 30%;
-	position: fixed;
-	z-index: 1;
-	top: 20;
-	overflow-x: hidden;
-	padding-top: 20px;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 20;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     &__left {
-		left: 0;
-		background-color:aqua;
+        left: 0;
+        background-color: aqua;
+    }
+    &__hdr {
+        font-size: 1.5rem;
+        margin: 15% 0%;
+        font-weight: bold;
+    }
+
+    &__centered {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        &--img {
+            width: 60px;
+            border-radius: 50%;
+        }
+        &__table{
+            font-size: 1rem;
+            display: table;
+			margin: 5% auto 0%;
+			text-align: left;
+
+            &--row {
+                display: table-row;
+            }
+            &--data {
+                display: table-cell;
+				padding: 10px 30px;
+				margin:auto;
+            }
+        }
     }
 }
