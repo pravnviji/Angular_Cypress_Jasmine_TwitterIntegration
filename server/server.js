@@ -4,14 +4,14 @@ const app = express();
 const http = require('http');
 const request = require('request');
 const client = new Twitter({
-    consumer_key: '{{API KEY}}',
-    consumer_secret: '{{API SECRET}}',
-    access_token: '{{ACCESS TOKEN}}',
-    access_token_secret: '{{ACCESS TOKEN SECRET}}',
+    consumer_key: 'I8qClMN8kMhkREqLrhZAHAyn0',
+    consumer_secret: 'b8jGn6gVD2kNr19KSCy4d2pv5JHB9GvwDP10YOodc4rmYFrm8B',
+    access_token: '262432611-uJ8mRVYY6mbMK03Y4OLqJ98LFOettukKajuNGJje',
+    access_token_secret: 'YMXbZ19g8ojYKiHkkRcbMU2Ww5sWL5JeOROW8kaeNeAzr'
 });
 
 const bearerToken =
-'Bearer {{BEARER TOKEN}}';
+'Bearer AAAAAAAAAAAAAAAAAAAAAIiNPQEAAAAAjNnr%2BwwIMuo%2BOsweigjawpRPhkU%3Dm9v5BTsjygz7hRuhRU6RyP6CLuXb6gGeVCga7dChqLwzN0LQnT';
 
 
 app.use(require('cors')());

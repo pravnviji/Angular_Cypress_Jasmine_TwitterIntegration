@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { of, Observable } from 'rxjs';
-import { TwitterService, ITweetUserProfile } from '../../../../feature/twitter/service';
+import { Observable } from 'rxjs';
+import { TwitterService, ITweetUserProfile } from '../../service';
 import { Logger } from '../../../../core/logger.service';
 
 @Component({
   selector: 'app-userprofile',
-  templateUrl: './userprofile.component.html',
-  styleUrls: ['./userprofile.component.scss']
+  templateUrl: './user-profile.component.html',
+  styleUrls: ['./user-profile.component.scss']
 })
 export class UserprofileComponent implements OnInit {
   public userProfileAsyncResult$: Observable<ITweetUserProfile> ;

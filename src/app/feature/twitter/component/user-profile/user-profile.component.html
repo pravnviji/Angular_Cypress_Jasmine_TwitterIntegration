@@ -21,6 +21,10 @@
 					<div class="app-userprofile__centered__table--data">Location</div>
 					<div class="app-userprofile__centered__table--data">{{userProfile?.location}}</div>
 				</div>
+				<div class="app-userprofile__centered__table--row">
+					<div class="app-userprofile__centered__table--data">Joined</div>
+					<div class="app-userprofile__centered__table--data">{{userProfile?.created_at | date : 'MMM yyyy'}}</div>
+				</div>
 			</div>
 		</div>
 	</div>
