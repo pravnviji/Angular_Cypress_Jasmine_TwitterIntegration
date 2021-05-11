@@ -4,14 +4,14 @@ const app = express();
 const http = require('http');
 const request = require('request');
 const client = new Twitter({
-    consumer_key: 'X7YOYHzfriUvl1DGeZ9VDkN4Z',
-    consumer_secret: 'IdSW3XUcxUlrA2qzEy0ptdMSk4EYc0optGrdnVsp7kGYP9saPa',
-    access_token: '262432611-bSuX9aMODu41Xx2XU1mMvq2VCQOnukJW5iSxE9ga',
-    access_token_secret: 'POLErtWuH7QVM8J3L0slylZfMJTeyS49ZraykdOL990cB'
+    consumer_key: '{{API KEY}}',
+    consumer_secret: '{{API TOKEN}}',
+    access_token: '{{ACCESS TOKEN}}',
+    access_token_secret: '{{ ACCESS TOKEN SECRET}}'
 });
 
 const bearerToken =
-'Bearer AAAAAAAAAAAAAAAAAAAAANC%2FPQEAAAAAkO1uHXw15Ra2akL%2F86On7jFEUO0%3DGW6ZSMoZ27HiCGBPwo7Bn31bqI4XL3p3PHW9pJuocseiwTyi69';
+'Bearer {BEARER TOKEN}';
 
 app.use(require('cors')());
 app.use(require('body-parser').json());
@@ -49,6 +49,7 @@ app.get('/mentions_timeline', (req, res) => {
 
 app.post('/post_tweet', (req, res) => {
     // tweet = {status:"Hello world"};
+    console.log('post_tweet');
     console.log(req.body);
    // tweet = {status:"Testing TwitterApi with Angular Components"}
 	
