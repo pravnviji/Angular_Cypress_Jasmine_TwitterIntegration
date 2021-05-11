@@ -1,6 +1,4 @@
 
   <mat-label>Post your Tweet</mat-label><br>
-<mat-form-field >
-  <input matInput>
-</mat-form-field>
-
+  <input #tweetArea matInput class="app-user-post__tweet-area"><br>
+  <button mat-raised-button color="primary" (click)="postTweet()">Tweet</button>

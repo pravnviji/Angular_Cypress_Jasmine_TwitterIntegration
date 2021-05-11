@@ -4,15 +4,14 @@ const app = express();
 const http = require('http');
 const request = require('request');
 const client = new Twitter({
-    consumer_key: 'I8qClMN8kMhkREqLrhZAHAyn0',
-    consumer_secret: 'b8jGn6gVD2kNr19KSCy4d2pv5JHB9GvwDP10YOodc4rmYFrm8B',
-    access_token: '262432611-uJ8mRVYY6mbMK03Y4OLqJ98LFOettukKajuNGJje',
-    access_token_secret: 'YMXbZ19g8ojYKiHkkRcbMU2Ww5sWL5JeOROW8kaeNeAzr'
+    consumer_key: 'X7YOYHzfriUvl1DGeZ9VDkN4Z',
+    consumer_secret: 'IdSW3XUcxUlrA2qzEy0ptdMSk4EYc0optGrdnVsp7kGYP9saPa',
+    access_token: '262432611-bSuX9aMODu41Xx2XU1mMvq2VCQOnukJW5iSxE9ga',
+    access_token_secret: 'POLErtWuH7QVM8J3L0slylZfMJTeyS49ZraykdOL990cB'
 });
 
 const bearerToken =
-'Bearer AAAAAAAAAAAAAAAAAAAAAIiNPQEAAAAAjNnr%2BwwIMuo%2BOsweigjawpRPhkU%3Dm9v5BTsjygz7hRuhRU6RyP6CLuXb6gGeVCga7dChqLwzN0LQnT';
-
+'Bearer AAAAAAAAAAAAAAAAAAAAANC%2FPQEAAAAAkO1uHXw15Ra2akL%2F86On7jFEUO0%3DGW6ZSMoZ27HiCGBPwo7Bn31bqI4XL3p3PHW9pJuocseiwTyi69';
 
 app.use(require('cors')());
 app.use(require('body-parser').json());

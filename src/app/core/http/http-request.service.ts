@@ -21,6 +21,8 @@ export class HttpRequestService {
    * @returns get 
    */
   public get(path: string, header?: object): Observable<Object> {
+    this._logger.debug(`HttpRequestService`, `get`);
+    this._logger.debug(`HttpRequestService`, environment.serverUrl + path);
     header = header ?? this._header;
     const url = environment.serverUrl + path;
     return this._http.get(url, header);
@@ -34,6 +36,9 @@ export class HttpRequestService {
    * @returns post 
    */
   public post(path: string, body: object, header?: object): Observable<Object> {
+    this._logger.debug(`HttpRequestService`, `post`);
+    this._logger.debug(`HttpRequestService`, body);
+    this._logger.debug(`HttpRequestService`, environment.serverUrl + path);
     header = header ?? this._header;
     const url = environment.serverUrl + path;
     return this._http.post(url, body, header);

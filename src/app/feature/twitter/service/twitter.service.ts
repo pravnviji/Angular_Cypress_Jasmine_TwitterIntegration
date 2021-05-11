@@ -24,6 +24,11 @@ export class TwitterService {
         this._logger.debug('getUserProfile');
         return this._http.get(`profile_info`).pipe(tap(mapGetUserProfile));
     }
+
+    postUserTweet(req): Observable<any> {
+        this._logger.debug('postUserTweet', req);
+        return this._http.post(`post_tweet`, req);
+    }
 }
 
 export const mapGetUserProfile = (result): ITweetUserProfile =>

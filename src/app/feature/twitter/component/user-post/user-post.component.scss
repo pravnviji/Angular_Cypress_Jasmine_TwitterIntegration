@@ -1,0 +1,16 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+:host {
+    .app-user-post {
+        &__tweet-area {
+            border: 1px solid black;
+            margin: 2% auto 2% 45%;
+            height: 100px;
+			width: 800px;
+        }
+    }
+	::ng-deep {
+		.mat-form-field-infix{
+			width: 900px;
+		}
+	}
+}
