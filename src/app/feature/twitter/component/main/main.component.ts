@@ -33,7 +33,7 @@ export class MainComponent implements OnInit {
     public twitterData(): Observable<any> {
         // Observable.forkJoin (RxJS 5) changes to just forkJoin() in RxJS 6
         return forkJoin([
-            this.twitterService.getUserProfile(),
+           // this.twitterService.getUserProfile(),
             this.twitterService.getHomeTimeLine(),
         ]).pipe(
             catchError(async (error) => this.onGetFeedError(error)),
@@ -49,8 +49,9 @@ export class MainComponent implements OnInit {
 
 export function tranformResult(result) {
     console.log(`tranformResult`);
-    const userData: ITweetUserProfile = result[0];
-    const getHeadLinesData: ITweetUserHeadlines[] = result[1];
+  //  const userData: ITweetUserProfile = result[0];
+    const userData = null;
+    const getHeadLinesData: ITweetUserHeadlines[] = result[0];
     console.log({ user: userData, getHeadLines: getHeadLinesData });
     return { user: userData, getHeadLines: getHeadLinesData };
 }

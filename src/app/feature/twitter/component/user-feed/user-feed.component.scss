@@ -11,4 +11,11 @@
 		display: table;
 		clear: both;
 	  }
+
+	&__container{
+		border: 1px solid #2196F3;
+		font-size: 0.8rem;
+		padding: 3% 2%;
+		margin: 2% auto;
+	}
 }
