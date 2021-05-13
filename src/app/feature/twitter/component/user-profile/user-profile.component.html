@@ -1,4 +1,4 @@
-<ng-container *ngIf="(userProfileAsyncResult$ | async) as userProfile">
+<ng-container *ngIf="(userprofiledata | async) as userProfile">
 	<!--{{userProfile?.name}}
 	{{userProfile?.id}}
 	{{userProfile?.profile_image_url}}
@@ -9,24 +9,27 @@
 			<div class="app-userprofile__hdr">User Profile Info</div>
 			<img class="app-userprofile__centered--img" [src]="userProfile?.profile_image_url" alt="Twitter Avatar">
 			<div class="app-userprofile__centered__table">
-				<div class="app-userprofile__centered__table--row">
+				<div class="app-userprofile__centered__table--row" *ngIf="userProfile.name">
 					<div class="app-userprofile__centered__table--data">Name</div>
 					<div class="app-userprofile__centered__table--data">{{userProfile?.name}}</div>
 				</div>
-				<div class="app-userprofile__centered__table--row">
+				<div class="app-userprofile__centered__table--row" *ngIf="userProfile.username">
+					<div class="app-userprofile__centered__table--data">User Name</div>
+					<div class="app-userprofile__centered__table--data">{{userProfile?.username}}</div>
+				</div>
+				<div class="app-userprofile__centered__table--row" *ngIf="userProfile.id">
 					<div class="app-userprofile__centered__table--data">Id</div>
 					<div class="app-userprofile__centered__table--data">{{userProfile?.id}}</div>
 				</div>
-				<div class="app-userprofile__centered__table--row">
+				<div class="app-userprofile__centered__table--row"  *ngIf="userProfile.location">
 					<div class="app-userprofile__centered__table--data">Location</div>
 					<div class="app-userprofile__centered__table--data">{{userProfile?.location}}</div>
 				</div>
-				<div class="app-userprofile__centered__table--row">
+				<div class="app-userprofile__centered__table--row"  *ngIf="userProfile.created_at">
 					<div class="app-userprofile__centered__table--data">Joined</div>
 					<div class="app-userprofile__centered__table--data">{{userProfile?.created_at | date : 'MMM yyyy'}}</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 </ng-container>

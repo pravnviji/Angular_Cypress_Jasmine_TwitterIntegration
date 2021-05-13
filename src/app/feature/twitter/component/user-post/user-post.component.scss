@@ -1,16 +1,37 @@
-@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 :host {
     .app-user-post {
         &__tweet-area {
-            border: 1px solid black;
-            margin: 2% auto 2% 45%;
-            height: 100px;
-			width: 800px;
+            margin: 4% auto 0% 45%;
+        }
+        &__lbl{
+            font-size: 1.2rem;
+            font-family: "Alegreya-Bold";
+            margin-left:5%
+        }
+        &__tab-area{
+            font-family: "Alegreya-Regular";
+            margin-left:45%;
+            margin-top:2%;
+            width:100%
         }
     }
 	::ng-deep {
-		.mat-form-field-infix{
+		.p-fluid .p-inputtextarea{
 			width: 900px;
+            height:100px;
+            border:1px solid black;
 		}
+        .p-tabview .p-tabview-nav{
+            border: none;
+        }
+        .p-tabview .p-tabview-nav li .p-tabview-nav-link{
+            width:300px;
+        }
+        .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus{
+            border-bottom: 2px solid #2196F3 !important;
+            box-shadow:none;
+        }
 	}
 }
+

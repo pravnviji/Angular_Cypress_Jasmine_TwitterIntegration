@@ -5,9 +5,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
-import { MatInputModule } from '@angular/material/input';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatButtonModule } from '@angular/material/button';
+
+
+import { ButtonModule } from 'primeng/button';
+import { RippleModule } from 'primeng/ripple';
+import { TabViewModule } from 'primeng/tabview';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { HeaderComponent } from './header/header.component';
@@ -24,9 +28,16 @@ import {
     MainComponent,
     UserprofileComponent,
     UserPostComponent,
+    UserFeedsTabComponent
 } from '../feature/twitter/component';
 
-const modules = [MatInputModule, MatFormFieldModule, MatButtonModule];
+const modules = [
+
+    ButtonModule,
+    RippleModule,
+    TabViewModule,
+    InputTextareaModule
+];
 @NgModule({
     imports: [
         AngularCommonModule,
@@ -44,6 +55,7 @@ const modules = [MatInputModule, MatFormFieldModule, MatButtonModule];
         MainComponent,
         UserprofileComponent,
         UserPostComponent,
+        UserFeedsTabComponent
     ],
     providers: [
         CommonService,
@@ -55,6 +67,11 @@ const modules = [MatInputModule, MatFormFieldModule, MatButtonModule];
         },
     ],
     exports: [
+        AngularCommonModule,
+        RouterModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        FormsModule,
         AppLoaderComponent,
         HeaderComponent,
         LeftpaneComponent,

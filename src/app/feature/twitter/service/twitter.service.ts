@@ -3,7 +3,7 @@ import { Observable, BehaviorSubject } from 'rxjs';
 import { map, tap } from 'rxjs/operators';
 
 import { HttpRequestService } from '../../../core/http/http-request.service';
-import { ITweetUserProfile } from './twitter-feed.interface';
+import { ITweetUserProfile, ITweetRecentTweets } from './twitter-feed.interface';
 import { Logger } from '../../../core/logger.service';
 
 @Injectable({
@@ -22,14 +22,30 @@ export class TwitterService {
 
     getUserProfile(): Observable<any> {
         this._logger.debug('getUserProfile');
-        return this._http.get(`profile_info`).pipe(tap(mapGetUserProfile));
+        return this._http
+            .get(`profile_info`)
+            .pipe(map((result) => this.mapGetUserProfile(result)));
     }
 
     postUserTweet(req): Observable<any> {
         this._logger.debug('postUserTweet', req);
         return this._http.post(`post_tweet`, req);
     }
-}
 
-export const mapGetUserProfile = (result): ITweetUserProfile =>
-    !result.length ? null : result;
+    mapGetUserProfile(result): ITweetUserProfile {
+        this._logger.debug('mapGetUserProfile', result.data.data);
+        return result.resp.statusCode === 200 ? result.data.data : null;
+    }
+
+    getTweets(): Observable<any> {
+        this._logger.debug('getTweets');
+        return this._http
+            .get(`tweets`)
+            .pipe(map((result) => this.mapUserTweets(result)));
+    }
+
+    mapUserTweets(result): ITweetRecentTweets[] {
+        this._logger.debug('mapUserTweets', result.data.data);
+        return result.resp.statusCode === 200 ? result.data.data : null;
+    }
+}

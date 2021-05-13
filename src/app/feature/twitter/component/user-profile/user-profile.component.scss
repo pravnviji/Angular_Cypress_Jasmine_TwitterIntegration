@@ -6,27 +6,28 @@
     top: 20;
     overflow-x: hidden;
     padding-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Alegreya-Bold';
+    color: #fff;
 
     &__left {
         left: 0;
-        background-color: aqua;
+        background-color: #1C9BEF;
     }
     &__hdr {
         font-size: 1.5rem;
-        margin: 15% 0%;
+        margin: 15% 0% 10%;
         font-weight: bold;
     }
 
     &__centered {
         position: absolute;
-        top: 20%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
 
         &--img {
-            width: 60px;
+            width: 75px;
             border-radius: 50%;
         }
         &__table{
@@ -34,6 +35,7 @@
             display: table;
 			margin: 5% auto 0%;
 			text-align: left;
+            font-family: 'Alegreya-Regular';
 
             &--row {
                 display: table-row;

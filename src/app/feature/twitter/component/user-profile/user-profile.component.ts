@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { TwitterService, ITweetUserProfile } from '../../service';
+import { ITweetUserProfile } from '../../service';
 import { Logger } from '../../../../core/logger.service';
 
 @Component({
@@ -9,17 +9,12 @@ import { Logger } from '../../../../core/logger.service';
   styleUrls: ['./user-profile.component.scss']
 })
 export class UserprofileComponent implements OnInit {
-  public userProfileAsyncResult$: Observable<ITweetUserProfile> ;
+  @Input() 
+  public userprofiledata: Observable<ITweetUserProfile> = null;
 
-  constructor(private _twitterService: TwitterService, private _logger: Logger) { }
+  constructor(private logger: Logger) { }
 
   ngOnInit(): void {
-    this.getUserProfile();
+    this.logger.debug(`UserprofileComponent`, `Input value ${this.userprofiledata}` );
   }
-
-  async getUserProfile(){
-    this.userProfileAsyncResult$ = this._twitterService.getUserProfile();
-    this._logger.debug(`UserprofileComponent`, this.userProfileAsyncResult$ );
-  }
-
 }

@@ -1,7 +1,27 @@
+<ng-container *ngIf="(userProfileAsyncResult$ | async)
+  then userProfileTemplate;
+  else emptyTemplate
+"></ng-container>
+
+<ng-template #userProfileTemplate>
 <div class="app-main">
-	<app-userprofile></app-userprofile>
+	<app-userprofile [userprofiledata]="userProfileAsyncResult$"></app-userprofile>
 	<div class="app-main__centered">
 		<app-user-post></app-user-post>
 	</div>
 </div>
 <router-outlet></router-outlet>
+</ng-template>
+
+<ng-template #emptyTemplate>
+	<div class="app-main__empty-container">
+		 Please configure the server settings to access Twitter API. Update below parameter in Server.js
+		 <ol>
+			<li>consumer_key</li>
+			<li>consumer_secret</li>
+			<li>access_token</li>
+			<li>access_token_secret</li>
+			<li>bearer_token</li>
+		  </ol>
+	</div>
+  </ng-template>

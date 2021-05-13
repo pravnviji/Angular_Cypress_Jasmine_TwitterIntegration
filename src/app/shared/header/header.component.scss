@@ -1,7 +1,20 @@
+@font-face {
+    font-family: "Alegreya-Bold";
+    src: local("Alegreya-Bold"), url(../../../assets/fonts/Alegreya-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Alegreya-ExtraBold";
+    src: local("Alegreya-ExtraBold"), url(../../../assets/fonts/Alegreya-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Alegreya-Regular";
+    src: local("Alegreya-Regular"), url(../../../assets/fonts/Alegreya-Regular.ttf) format("truetype");
+}
+
 .header_block{
     min-height: 55px;
     margin: -10px 0px 0px -10px;
-    background:#000 linear-gradient(-35deg, #0066a1 0%, #003478 40%, #081026 100%) repeat scroll 0 0;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#081026', endColorstr='#0066a1', GradientType=1);
+    background:#000 linear-gradient(-105deg, #1C9BEF 30%, #1C9BEF 80%, #081026 100%) repeat scroll 0 0;filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#081026', endColorstr='#0066a1', GradientType=1);
         background-color: #2b86b2;
 }
 
@@ -10,7 +23,7 @@
     margin: auto;
     font-size: 25px;
     color: #fff;
-    font-family: centrale-sans;
+    font-family: "Alegreya-Bold";
     text-align: center;
     padding: 15px;
 }

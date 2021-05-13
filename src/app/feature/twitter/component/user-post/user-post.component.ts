@@ -1,4 +1,4 @@
-import { Component, ViewChild, OnInit, ElementRef } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { TwitterService } from '../../service';
 import { Logger } from '../../../../core/logger.service';
@@ -9,7 +9,7 @@ import { Logger } from '../../../../core/logger.service';
     styleUrls: ['./user-post.component.scss'],
 })
 export class UserPostComponent implements OnInit {
-    @ViewChild('tweetArea') tweetArea: ElementRef;
+    public tweet: string;
 
     constructor(
         private _twitterService: TwitterService,
@@ -20,11 +20,27 @@ export class UserPostComponent implements OnInit {
         this._logger.debug(`UserPostComponent`, ``);
     }
 
-    postTweet(): void {
+    postTweet = () => {
         this._logger.debug(`UserPostComponent`, `post tweet`);
-        this._logger.debug(`UserPostComponent`, this.tweetArea.nativeElement.value);
-        const reqObj = { status: this.tweetArea.nativeElement.value};
-        this._twitterService.postUserTweet(reqObj).subscribe();
+        this._logger.debug(`UserPostComponent`, this.tweet);
+        const reqObj = { status: this.tweet};
+        this._twitterService.postUserTweet(reqObj).subscribe(this.postedTweet);
 
+    }
+
+    public postedTweet = (result: any) => {
+      this._logger.debug(`UserPostComponent`, `postedTweet`);
+      this._logger.debug(`UserPostComponent`, result);
+      this.showModal(result);
+      
+    }
+
+    public showModal = (result) => {
+        this.tweet = '';
+        if (result.resp.statusCode === 200){
+            alert(`Successfully tweet posted`);
+        } else {
+            alert(` Post is not successfully`);
+        }
     }
 }

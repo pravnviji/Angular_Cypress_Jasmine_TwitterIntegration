@@ -1,4 +1,46 @@
 
-  <mat-label>Post your Tweet</mat-label><br>
-  <input #tweetArea matInput class="app-user-post__tweet-area"><br>
-  <button mat-raised-button color="primary" (click)="postTweet()">Tweet</button>
+
+<label class="app-user-post__lbl">Post your Tweet</label><br>
+
+<div class="p-fluid p-grid app-user-post__tweet-area">
+<div class="p-field p-col-1">
+    <span class="p-float-label">
+      <textarea
+        inputId="tweetArea"
+        rows="3"
+        cols="30"
+        [(ngModel)]="tweet"
+        pInputTextarea
+      ></textarea>
+      <label for="textarea">Post your tweet...</label>
+    </span>
+</div><br>
+</div>
+<p-button label="Tweet" (click)="postTweet()"></p-button>
+
+<div class="app-user-post__tab-area">
+    <p-tabView>
+        <p-tabPanel header="Tweet">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+        </p-tabPanel>
+        <p-tabPanel header="Tweet & Replies">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.</p>
+        </p-tabPanel>
+        <p-tabPanel header="HeadLine">
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+                atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.</p>
+        </p-tabPanel>
+    </p-tabView>
+</div>

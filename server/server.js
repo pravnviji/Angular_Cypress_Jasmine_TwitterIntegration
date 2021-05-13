@@ -4,14 +4,15 @@ const app = express();
 const http = require('http');
 const request = require('request');
 const client = new Twitter({
-    consumer_key: '{{API KEY}}',
-    consumer_secret: '{{API TOKEN}}',
-    access_token: '{{ACCESS TOKEN}}',
-    access_token_secret: '{{ ACCESS TOKEN SECRET}}'
+    consumer_key: `{{API KEY}}`,
+    consumer_secret: `{{API TOKEN}}`,
+    access_token: `{{ACCESS TOKEN}}`,
+    access_token_secret: `{{ ACCESS TOKEN SECRET}}`
 });
 
-const bearerToken =
-'Bearer {BEARER TOKEN}';
+
+const user_screen = 'aboutyou_tech';
+const user_id = '1318536307216363520';
 
 app.use(require('cors')());
 app.use(require('body-parser').json());
@@ -47,6 +48,25 @@ app.get('/mentions_timeline', (req, res) => {
         });
 });
 
+app.get('/tweets', (req, res) => {
+    console.log('tweets');
+    const params = { tweet_mode: 'extended', count: 10 };
+    var url =
+        `https://api.twitter.com/2/users/${user_id}/tweets`;
+
+        client
+        .get(url, req.body)
+        .then((timeline) => {
+            console.log(timeline);
+
+            res.send(timeline);
+        })
+
+        .catch((error) => {
+            res.send(error);
+        });
+});
+
 app.post('/post_tweet', (req, res) => {
     // tweet = {status:"Hello world"};
     console.log('post_tweet');
@@ -66,28 +86,34 @@ app.post('/post_tweet', (req, res) => {
         });
 });
 
+app.post('/retweet', (req, res) => {
+    // tweet = {status:"Hello world"};
+    console.log('retweet');
+    console.log(req.body);
+   // tweet = {status:"Testing TwitterApi with Angular Components"}
+	
+   var tweetId = 'XXXXX';
+   client.post('statuses/retweet/' + tweetId, function(error, tweet, response) {
+     if (!error) {
+       console.log(tweet);
+     }
+   });
+});
+
 app.get('/profile_info', (req, res) => {
-    //
-    var url =
-        'https://api.twitter.com/1.1/users/show.json?screen_name=pravnviji1';
-   
-    console.log('User http');
-    request.get(
-        {
-            url: url,
-            headers: {
-              "Content-Type":"application/json",
-              "Authorization": bearerToken,
-            },
-        }, function (error, response, body) {
-          console.log("Result of Profile Data");
-          console.log(response.statusCode);
-          if (!error && response.statusCode == 200) {
-            // Successful call
-            var results = JSON.parse(body);
-            res.send(results);
-            console.log(results) // View Results
-          }
+
+    console.log('profile_info');
+	console.log(`user id ${user_screen}`);
+    client
+        .get(`https://api.twitter.com/2/users/by/username/${user_screen}?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld`)
+        .then((result) => {
+            console.log(result);
+
+            res.send(result);
+        })
+
+        .catch((error) => {
+            res.send(error);
         });
 });
 
