@@ -1,13 +1,16 @@
-<ng-container *ngIf="(userProfileAsyncResult$ | async)
+<ng-container *ngIf="(userFeedAsyncResult$ | async ) as userFeedAsyncResult
   then userProfileTemplate;
   else emptyTemplate
 "></ng-container>
 
+
 <ng-template #userProfileTemplate>
+
 <div class="app-main">
-	<app-userprofile [userprofiledata]="userProfileAsyncResult$"></app-userprofile>
+	<app-userprofile  [userprofiledata]="(userFeedAsyncResult$ | async)?.user">
+	</app-userprofile>
 	<div class="app-main__centered">
-		<app-user-post></app-user-post>
+		<app-user-post [userfeeddata]="(userFeedAsyncResult$ | async)?.getHeadLines"></app-user-post>
 	</div>
 </div>
 <router-outlet></router-outlet>

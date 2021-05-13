@@ -12,6 +12,7 @@ import { RippleModule } from 'primeng/ripple';
 import { TabViewModule } from 'primeng/tabview';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 
+
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { HeaderComponent } from './header/header.component';
@@ -28,7 +29,7 @@ import {
     MainComponent,
     UserprofileComponent,
     UserPostComponent,
-    UserFeedsTabComponent
+    UserFeedComponent
 } from '../feature/twitter/component';
 
 const modules = [
@@ -55,7 +56,7 @@ const modules = [
         MainComponent,
         UserprofileComponent,
         UserPostComponent,
-        UserFeedsTabComponent
+        UserFeedComponent
     ],
     providers: [
         CommonService,

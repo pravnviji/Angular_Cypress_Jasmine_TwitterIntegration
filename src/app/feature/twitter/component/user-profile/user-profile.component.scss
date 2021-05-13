@@ -3,7 +3,7 @@
     width: 30%;
     position: fixed;
     z-index: 1;
-    top: 20;
+    height:150%;
     overflow-x: hidden;
     padding-top: 20px;
     font-family: 'Alegreya-Bold';
@@ -21,7 +21,7 @@
 
     &__centered {
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
