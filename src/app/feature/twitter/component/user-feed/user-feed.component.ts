@@ -20,7 +20,7 @@ export class UserFeedComponent implements OnInit {
     this.logger.debug(`UserFeedComponent`, `Input value ${this.userfeeddata}` );
   }
 
-  /*
+  
   sanitizeUrl(contentHtml: string){
     const urlRegex = /(https?:\/\/[^ ]*)/;
     this.logger.debug(`UserFeedComponent`, `content HTML -->${contentHtml}` );
@@ -29,7 +29,7 @@ export class UserFeedComponent implements OnInit {
     this.logger.debug(`UserFeedComponent`, `URL -->${url}` );
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
-  */
+  
 
 
   sanitizeText(contentText: string){

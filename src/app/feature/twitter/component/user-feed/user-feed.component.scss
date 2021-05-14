@@ -2,8 +2,8 @@
 :host .app-user-feed {
 	&__wrapper {
 	  max-width: 1024px;
-	  margin: 0 auto;
-	  padding: 0 0px;
+	  height:800px;
+	  overflow: scroll;
 	}
 
 	&__row:after {
@@ -13,9 +13,57 @@
 	  }
 
 	&__container{
-		border: 1px solid #2196F3;
-		font-size: 0.8rem;
+		border: 2px solid #2196F3;
 		padding: 3% 2%;
 		margin: 2% auto;
+		border-radius: 20px;
+	}
+
+	&__banner{
+		height: 250px;
+		padding: 4px;
+		width: 70%;
+		background-size: cover;
+		border-radius: 20px;
+		margin-right: 10%;
+	}
+	&__full-text{
+		margin: 1% 9%;
+		font-size: 1.3rem;
+		font-family: "Alegreya-Regular";
+		text-align:left
+	}
+
+	&__profile-img{
+		height: 60px;
+		width: 60px;
+		float:left;
+		vertical-align: middle;
+		border-radius: 50%;
+	}
+
+	&__name{
+		font-size: 1.2rem;
+		font-family: "Alegreya-Bold";
+		margin: auto 1%;
+		float: left;
+		display: flex;
+		width: 1200px;
+	}
+
+	&__screen-name{
+		font-size: 0.9rem;
+		font-family: "Alegreya-Regular";
+		margin: auto 1%;
+	}
+
+	&__created-at{
+		font-size: 0.9rem;
+		margin: auto 2%;
+		font-family: "Alegreya-Regular";
+	}
+
+	&__user-cont{
+		display: flex;
 	}
 }

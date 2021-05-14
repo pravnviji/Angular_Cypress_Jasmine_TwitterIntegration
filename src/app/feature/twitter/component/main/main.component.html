@@ -7,10 +7,12 @@
 <ng-template #userProfileTemplate>
 
 <div class="app-main">
-	<!--<app-userprofile  [userprofiledata]="(userFeedAsyncResult$ | async)?.user">
-	</app-userprofile>-->
+	<app-userprofile  [userprofiledata]="(userFeedAsyncResult$ | async)?.user">
+	</app-userprofile>
 	<div class="app-main__centered">
-		<app-user-post [userfeeddata]="(userFeedAsyncResult$ | async)?.getHeadLines"></app-user-post>
+		<app-user-post [userheadlines]="(userFeedAsyncResult$ | async)?.getHeadLines"
+		[usertimelines]="(userFeedAsyncResult$ | async)?.getUserTimeLines"
+		></app-user-post>
 	</div>
 </div>
 <router-outlet></router-outlet>

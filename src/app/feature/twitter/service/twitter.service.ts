@@ -31,6 +31,13 @@ export class TwitterService {
             .pipe(map((result) => this.mapGetHomeTimeline(result)));
     }
 
+    getUserTimeLine(): Observable<any> {
+        this._logger.debug('getUserTimeLine');
+        return this._http
+            .get(`user_timeline`)
+            .pipe(map((result) => this.mapGetHomeTimeline(result)));
+    }
+
     postUserTweet(req): Observable<any> {
         this._logger.debug('postUserTweet', req);
         return this._http.post(`post_tweet`, req);

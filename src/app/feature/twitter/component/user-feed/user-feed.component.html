@@ -1,6 +1,21 @@
 <div class="app-user-feed__row app-user-feed__wrapper">
-	<ng-container *ngFor="let headLinesData of userfeeddata; let i = index;">
-		<div class="app-user-feed__container" [innerHtml]="this.sanitizeText(headLinesData.full_text)" >
+	<ng-container *ngFor="let feedData of userfeeddata; let i = index;">
+		<div class="app-user-feed__container">
+			<img class="app-user-feed__profile-img" *ngIf="feedData.user.profile_image_url"
+				[src]="feedData.user.profile_image_url">
+			<div class="app-user-feed__user-cont">
+				<span *ngIf="feedData.user.name" class="app-user-feed__name"> {{feedData.user.name}}
+					<span *ngIf="feedData.user.screen_name" class="app-user-feed__screen-name">@
+						{{feedData.user.screen_name}}</span>
+						<span *ngIf="feedData.user.created_at"
+						class="app-user-feed__created-at">{{feedData.user.created_at | date : 'hh'}} hrs</span>
+				</span>
+			
+	
+			</div>
+			<div class="app-user-feed__full-text" [innerHtml]="this.sanitizeText(feedData.full_text)"></div>
+			<img *ngIf="feedData.user.profile_banner_url" class="app-user-feed__banner"
+				[src]="feedData.user.profile_banner_url">
 		</div>
 	</ng-container>
 </div>

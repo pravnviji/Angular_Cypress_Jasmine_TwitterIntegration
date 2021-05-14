@@ -1,6 +1,7 @@
 export interface ITweetResponse {
     user: ITweetUserProfile;
     getHeadLines: ITweetUserHeadlines[];
+    getUserTimeLines: ITweetUserHeadlines[]; 
 }
 
 export interface ITweetUserProfile {
@@ -15,7 +16,11 @@ export interface ITweetUserProfile {
 
 export interface ITweetRecentTweets {
     id: number;
-    text: string;
+    full_text: string;
+    created_at: string;
+    retweat_count: number;
+    favorite_count: number; 
+    user: ITweetUser;
 }
 
 export interface ITweetUserHeadlines {
@@ -24,5 +29,13 @@ export interface ITweetUserHeadlines {
     created_at: string;
     retweat_count: number;
     favorite_count: number; 
+    user: ITweetUser;
 }
 
+export interface ITweetUser {
+    profile_image_url: string;
+    profile_banner_url: string;
+    name: string;
+    screen_name: string;
+    created_at: string;
+}

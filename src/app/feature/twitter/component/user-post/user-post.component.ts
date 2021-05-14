@@ -10,7 +10,9 @@ import { Logger } from '../../../../core/logger.service';
 })
 export class UserPostComponent implements OnInit {
     @Input() 
-    public userfeeddata: any;
+    public userheadlines: any;
+    @Input() 
+    public usertimelines: any;
     public tweet: string;
     public fileName = `UserPostComponent`;
 
@@ -22,7 +24,7 @@ export class UserPostComponent implements OnInit {
 
     ngOnInit(): void {
         this.logger.debug(this.fileName, `userFeeddata`);
-        this.logger.debug(this.fileName, this.userfeeddata);
+        this.logger.debug(this.fileName, this.userheadlines);
     }
 
     postTweet = () => {

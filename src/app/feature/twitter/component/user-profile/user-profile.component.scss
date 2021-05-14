@@ -1,17 +1,14 @@
 .app-userprofile {
-    height: 100%;
     width: 30%;
-    position: fixed;
-    z-index: 1;
-    height:150%;
+    position: absolute;
+    height: 200%;
     overflow-x: hidden;
-    padding-top: 20px;
     font-family: 'Alegreya-Bold';
     color: #fff;
 
     &__left {
         left: 0;
-        background-color: #1C9BEF;
+        background-color: #1c9bef;
     }
     &__hdr {
         font-size: 1.5rem;
@@ -30,11 +27,11 @@
             width: 75px;
             border-radius: 50%;
         }
-        &__table{
+        &__table {
             font-size: 1rem;
             display: table;
-			margin: 5% auto 0%;
-			text-align: left;
+            margin: 5% auto 0%;
+            text-align: left;
             font-family: 'Alegreya-Regular';
 
             &--row {
@@ -42,8 +39,8 @@
             }
             &--data {
                 display: table-cell;
-				padding: 10px 30px;
-				margin:auto;
+                padding: 10px 30px;
+                margin: auto;
             }
         }
     }
