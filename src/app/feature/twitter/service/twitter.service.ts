@@ -11,64 +11,48 @@ import { Logger } from '../../../core/logger.service';
 })
 export class TwitterService {
     // tslint:disable-next-line: variable-name
-    constructor(private _logger: Logger, private _http: HttpRequestService) {}
-
-    async getMentions() {
-        await this._http.get('mention_timeline').toPromise();
-    }
+    constructor(private http: HttpRequestService, private logger: Logger) {}
 
     getUserProfile(): Observable<any> {
-        this._logger.debug('getUserProfile');
-        return this._http
+        this.logger.debug('getUserProfile');
+        return this.http
             .get(`profile_info`)
             .pipe(map((result) => this.mapGetUserProfile(result)));
     }
 
     getHomeTimeLine(): Observable<any> {
-        this._logger.debug('getHomeTimeLine');
-        return this._http
+        this.logger.debug('getHomeTimeLine');
+        return this.http
             .get(`home_timeline`)
             .pipe(map((result) => this.mapGetHomeTimeline(result)));
     }
 
     getUserTimeLine(): Observable<any> {
-        this._logger.debug('getUserTimeLine');
-        return this._http
+        this.logger.debug('getUserTimeLine');
+        return this.http
             .get(`user_timeline`)
             .pipe(map((result) => this.mapGetHomeTimeline(result)));
     }
 
     getUserMentionsTimeLine(): Observable<any> {
-        this._logger.debug('getUserMentionsTimeLine');
-        return this._http
+        this.logger.debug('getUserMentionsTimeLine');
+        return this.http
             .get(`mentions_timeline`)
             .pipe(map((result) => this.mapGetHomeTimeline(result)));
     }
 
     postUserTweet(req): Observable<any> {
-        this._logger.debug('postUserTweet', req);
-        return this._http.post(`post_tweet`, req);
+        this.logger.debug('postUserTweet', req);
+        return this.http.post(`post_tweet`, req);
     }
 
     mapGetUserProfile(result): ITweetUserProfile {
-        this._logger.debug('mapGetUserProfile', result.data.data);
-        return (result.resp && result.resp.statusCode === 200)? result.data.data : null;
-    }
-
-    getTweets(): Observable<any> {
-        this._logger.debug('getTweets');
-        return this._http
-            .get(`tweets`)
-            .pipe(map((result) => this.mapUserTweets(result)));
-    }
-
-    mapUserTweets(result): ITweetRecentTweets[] {
-        this._logger.debug('mapUserTweets', result.data.data);
+        this.logger.debug('mapGetUserProfile', result.data.data);
         return (result.resp && result.resp.statusCode === 200) ? result.data.data : null;
     }
 
     mapGetHomeTimeline(result): ITweetUserHeadlines[] {
-        this._logger.debug('mapGetHomeTimeline', result);
+        this.logger.debug('mapGetHomeTimeline', result);
         return (result.resp && result.resp.statusCode === 200) ? result.data : null;
     }
 

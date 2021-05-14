@@ -24,11 +24,11 @@
         <p-tabPanel header="Tweets">
             <app-user-feed [userfeeddata]="usertimelines"></app-user-feed>
         </p-tabPanel>
-        <p-tabPanel header="Tweets & Replies">
-            <app-user-feed [userfeeddata]="usermentionslines"></app-user-feed>
-        </p-tabPanel>
-        <p-tabPanel header="HeadLines">
+        <p-tabPanel header="Tweets & Retweets">
            <app-user-feed [userfeeddata]="userheadlines"></app-user-feed>
+        </p-tabPanel>
+        <p-tabPanel header="Mentions">
+            <app-user-feed [userfeeddata]="usermentionslines"></app-user-feed>
         </p-tabPanel>
     </p-tabView>
 </div>

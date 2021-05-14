@@ -3,12 +3,11 @@ const Twitter = require('twit');
 const app = express();
 const http = require('http');
 const client = new Twitter({
-    consumer_key: `{{API KEY}}`,
-    consumer_secret: `{{API TOKEN}}`,
-    access_token: `{{ACCESS TOKEN}}`,
-    access_token_secret: `{{ ACCESS TOKEN SECRET}}`
+    consumer_key: 'd5jQppf3e4IHKR0KrhNA3c2aH',
+    consumer_secret: 'hkq2AKuUnQDJiYHzKo8W2tcdepRF72by8eiTiuJwA2KF8dDV4A',
+    access_token: '55864924-xnAJa0ZK62UoQmw3BU2IdMh4Sx7nBy3zYEG1OcbCY',
+    access_token_secret: 'Fz0kK5aESctmJThyFqWIVmOTQ9XquaQhBBknXYe5NfE4S'
 });
-
 const user_screen = 'aboutyou_tech';
 const user_id = '1318536307216363520';
 
@@ -23,7 +22,7 @@ app.get('/test', (req, res) => {
 
 app.get('/home_timeline', (req, res) => {
     console.log('home_timeline');
-    const params = { tweet_mode: 'extended', count: 10 };
+    const params = { tweet_mode: 'extended', count: 10, screen_name: user_screen };
     client
         .get(`statuses/home_timeline`, params)
         .then((timeline) => {
@@ -36,7 +35,7 @@ app.get('/home_timeline', (req, res) => {
 
 app.get('/mentions_timeline', (req, res) => {
     console.log('mentions_timeline');
-    const params = { tweet_mode: 'extended', count: 10 };
+    const params = { tweet_mode: 'extended', count: 10, screen_name: user_screen };
     client
         .get(`statuses/mentions_timeline`, params)
         .then((timeline) => {
@@ -49,7 +48,7 @@ app.get('/mentions_timeline', (req, res) => {
 
 app.get('/user_timeline', (req, res) => {
     console.log('user_timeline');
-    const params = { tweet_mode: 'extended', count: 10 };
+    const params = { tweet_mode: 'extended', count: 10, screen_name: user_screen };
 
     client
         .get(`statuses/user_timeline`, params)
