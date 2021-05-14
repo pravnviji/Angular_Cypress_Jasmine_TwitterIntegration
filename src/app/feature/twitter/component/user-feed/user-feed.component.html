@@ -8,10 +8,8 @@
 					<span *ngIf="feedData.user.screen_name" class="app-user-feed__screen-name">@
 						{{feedData.user.screen_name}}</span>
 						<span *ngIf="feedData.user.created_at"
-						class="app-user-feed__created-at">{{feedData.user.created_at | date : 'hh'}} hrs</span>
+						class="app-user-feed__created-at">{{feedData.user.created_at | date :'hh':'UTC'}} hrs</span>
 				</span>
-			
-	
 			</div>
 			<div class="app-user-feed__full-text" [innerHtml]="this.sanitizeText(feedData.full_text)"></div>
 			<img *ngIf="feedData.user.profile_banner_url" class="app-user-feed__banner"

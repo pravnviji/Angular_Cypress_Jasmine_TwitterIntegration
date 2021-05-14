@@ -46,8 +46,4 @@ describe('LandingComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('should call sidebarToggleClass()', () => {
-    component.sidebarToggleClass();
-    expect(component.sidebarToggleClass).toBeTruthy();
-  });
 });

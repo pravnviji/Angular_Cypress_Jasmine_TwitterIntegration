@@ -38,6 +38,13 @@ export class TwitterService {
             .pipe(map((result) => this.mapGetHomeTimeline(result)));
     }
 
+    getUserMentionsTimeLine(): Observable<any> {
+        this._logger.debug('getUserMentionsTimeLine');
+        return this._http
+            .get(`mentions_timeline`)
+            .pipe(map((result) => this.mapGetHomeTimeline(result)));
+    }
+
     postUserTweet(req): Observable<any> {
         this._logger.debug('postUserTweet', req);
         return this._http.post(`post_tweet`, req);

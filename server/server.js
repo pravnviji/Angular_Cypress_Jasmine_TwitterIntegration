@@ -8,6 +8,7 @@ const client = new Twitter({
     access_token: `{{ACCESS TOKEN}}`,
     access_token_secret: `{{ ACCESS TOKEN SECRET}}`
 });
+
 const user_screen = 'aboutyou_tech';
 const user_id = '1318536307216363520';
 
@@ -25,6 +26,19 @@ app.get('/home_timeline', (req, res) => {
     const params = { tweet_mode: 'extended', count: 10 };
     client
         .get(`statuses/home_timeline`, params)
+        .then((timeline) => {
+            res.send(timeline);
+        })
+        .catch((error) => {
+            res.send(error);
+        });
+});
+
+app.get('/mentions_timeline', (req, res) => {
+    console.log('mentions_timeline');
+    const params = { tweet_mode: 'extended', count: 10 };
+    client
+        .get(`statuses/mentions_timeline`, params)
         .then((timeline) => {
             res.send(timeline);
         })

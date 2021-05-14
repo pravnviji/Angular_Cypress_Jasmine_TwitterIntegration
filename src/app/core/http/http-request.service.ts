@@ -8,10 +8,10 @@ import { Logger } from '../../core/logger.service';
   providedIn: 'root'
 })
 export class HttpRequestService {
-  private _header: HttpHeaders = new HttpHeaders({ responseType: 'JSON' });
+  private header: HttpHeaders = new HttpHeaders({ responseType: 'JSON' });
 
-  constructor(private _http: HttpClient,private _logger: Logger) {
-    this._logger.debug(`HttpRequestService`, environment.serverUrl);
+  constructor(private http: HttpClient, private logger: Logger) {
+    this.logger.debug(`HttpRequestService`, environment.serverUrl);
    }
 
   /**
@@ -21,11 +21,11 @@ export class HttpRequestService {
    * @returns get 
    */
   public get(path: string, header?: object): Observable<Object> {
-    this._logger.debug(`HttpRequestService`, `get`);
-    this._logger.debug(`HttpRequestService`, environment.serverUrl + path);
-    header = header ?? this._header;
+    this.logger.debug(`HttpRequestService`, `get`);
+    this.logger.debug(`HttpRequestService`, environment.serverUrl + path);
+    header = header ?? this.header;
     const url = environment.serverUrl + path;
-    return this._http.get(url, header);
+    return this.http.get(url, header);
   }
 
   /**
@@ -36,12 +36,12 @@ export class HttpRequestService {
    * @returns post 
    */
   public post(path: string, body: object, header?: object): Observable<Object> {
-    this._logger.debug(`HttpRequestService`, `post`);
-    this._logger.debug(`HttpRequestService`, body);
-    this._logger.debug(`HttpRequestService`, environment.serverUrl + path);
-    header = header ?? this._header;
+    this.logger.debug(`HttpRequestService`, `post`);
+    this.logger.debug(`HttpRequestService`, body);
+    this.logger.debug(`HttpRequestService`, environment.serverUrl + path);
+    header = header ?? this.header;
     const url = environment.serverUrl + path;
-    return this._http.post(url, body, header);
+    return this.http.post(url, body, header);
   }
 
   /**
@@ -52,9 +52,9 @@ export class HttpRequestService {
    * @returns put 
    */
   public put(path: string, body?: object, header?: object): Observable<Object> {
-    header = header ?? this._header;
+    header = header ?? this.header;
     const url = environment.serverUrl + path;
-    return this._http.put(url, body, header);
+    return this.http.put(url, body, header);
   }
 
   /**
@@ -66,10 +66,10 @@ export class HttpRequestService {
    */
   public delete(path: string, header?: object, requestBody?: object): Observable<Object> {
     const options = {
-      headers: header === undefined ? this._header : new HttpHeaders(header as { [key: string]: string | string[] }),
+      headers: header === undefined ? this.header : new HttpHeaders(header as { [key: string]: string | string[] }),
       body: requestBody,
     };
     const url = environment.serverUrl + path;
-    return this._http.request('delete', url, options);
+    return this.http.request('delete', url, options);
   }
 }

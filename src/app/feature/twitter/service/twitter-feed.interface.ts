@@ -1,7 +1,8 @@
 export interface ITweetResponse {
     user: ITweetUserProfile;
     getHeadLines: ITweetUserHeadlines[];
-    getUserTimeLines: ITweetUserHeadlines[]; 
+    getUserTimeLines: ITweetUserHeadlines[];
+    getMentionTimeLines: ITweetUserHeadlines[];  
 }
 
 export interface ITweetUserProfile {

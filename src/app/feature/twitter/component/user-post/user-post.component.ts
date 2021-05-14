@@ -13,6 +13,8 @@ export class UserPostComponent implements OnInit {
     public userheadlines: any;
     @Input() 
     public usertimelines: any;
+    @Input()
+    public usermentionslines: any;
     public tweet: string;
     public fileName = `UserPostComponent`;
 
@@ -44,9 +46,9 @@ export class UserPostComponent implements OnInit {
     public showModal = (result) => {
         this.tweet = '';
         if (result.data && result.resp.statusCode === 200){
-            alert(`Successfully tweet posted`);
+            alert(`Successfully posted. Please refresh the page`);
         } else if (result.statusCode === 403){
-            alert(` Sorry Content already posted `);
+            alert(` Sorry Content already posted | Server configuration is not correct`);
         }
     }
 }

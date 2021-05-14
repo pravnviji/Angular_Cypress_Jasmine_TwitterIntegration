@@ -12,6 +12,7 @@
 	<div class="app-main__centered">
 		<app-user-post [userheadlines]="(userFeedAsyncResult$ | async)?.getHeadLines"
 		[usertimelines]="(userFeedAsyncResult$ | async)?.getUserTimeLines"
+		[usermentionslines]="(userFeedAsyncResult$ | async)?.getMentionTimeLines"
 		></app-user-post>
 	</div>
 </div>

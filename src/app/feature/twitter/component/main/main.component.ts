@@ -36,6 +36,7 @@ export class MainComponent implements OnInit {
             this.twitterService.getUserProfile(),
             this.twitterService.getHomeTimeLine(),
             this.twitterService.getUserTimeLine(),
+            this.twitterService.getUserMentionsTimeLine(),
         ]).pipe(
             catchError(async (error) => this.onGetFeedError(error)),
             map((result) => tranformResult(result))
@@ -45,17 +46,26 @@ export class MainComponent implements OnInit {
     onGetFeedError = (error): void => {
         this.logger.debug(this.fileName, `onGetFeedError`);
         this.logger.debug(this.fileName, error);
-    }
+    };
 }
 
 export function tranformResult(result) {
     console.log(`tranformResult`);
     console.log(`MainComponent`, result);
     const userData: ITweetUserProfile = result[0];
-   // const userData = null;
-   // const getHeadLinesData = null;
     const getHeadLinesData: ITweetUserHeadlines[] = result[1];
     const getUserTimeLinesData: ITweetUserHeadlines[] = result[2];
-    console.log({ user: userData, getHeadLines: getHeadLinesData, getUserTimeLines: getUserTimeLinesData  });
-    return { user: userData, getHeadLines: getHeadLinesData, getUserTimeLines: getUserTimeLinesData };
+    const getMentionTimeLinesData: ITweetUserHeadlines[] = result[3];
+    console.log({
+        user: userData,
+        getHeadLines: getHeadLinesData,
+        getUserTimeLines: getUserTimeLinesData,
+        getMentionTimeLines: getMentionTimeLinesData,
+    });
+    return {
+        user: userData,
+        getHeadLines: getHeadLinesData,
+        getUserTimeLines: getUserTimeLinesData,
+        getMentionTimeLines: getMentionTimeLinesData,
+    };
 }
