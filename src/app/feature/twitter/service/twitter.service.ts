@@ -47,7 +47,7 @@ export class TwitterService {
     }
 
     mapGetUserProfile(result): ITweetUserProfile {
-        this.logger.debug('mapGetUserProfile', result.data.data);
+        this.logger.debug('mapGetUserProfile', result);
         return (result.resp && result.resp.statusCode === 200) ? result.data.data : null;
     }
 

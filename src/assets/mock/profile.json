@@ -1,85 +1,10 @@
 {
-    "data": {
-        "data": {
-            "name": "ABOUT YOU TECH",
-            "public_metrics": {
-                "followers_count": 843,
-                "following_count": 123,
-                "tweet_count": 387,
-                "listed_count": 7
-            },
-            "id": "851654519054364672",
-            "location": "Hamburg, Germany",
-            "profile_image_url": "https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png",
-            "protected": false,
-            "description": "Handling more than 750 million API calls/day 🚀\nCutting edge technologies, fashion trends & innovative IT-products like the ABOUT YOU Commerce Suite ☁️",
-            "created_at": "2017-04-11T04:33:55.000Z",
-            "username": "aboutyou_tech",
-            "url": "https://t.co/JceDLKecDZ",
-            "entities": {
-                "url": {
-                    "urls": [
-                        {
-                            "start": 0,
-                            "end": 23,
-                            "url": "https://t.co/JceDLKecDZ",
-                            "expanded_url": "https://corporate.aboutyou.de/de/jobs",
-                            "display_url": "corporate.aboutyou.de/de/jobs"
-                        }
-                    ]
-                }
-            },
-            "verified": false,
-            "pinned_tweet_id": "1020240997740175360"
-        }
-    },
-    "resp": {
-        "statusCode": 200,
-        "headers": {
-            "date": "Fri, 14 May 2021 10:21:24 UTC",
-            "server": "tsa_k",
-            "set-cookie": [
-                "personalization_id=\"v1_vtfGqJelzTsbh7m6oR33+Q==\"; Max-Age=63072000; Expires=Sun, 14 May 2023 10:21:24 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None",
-                "guest_id=v1%3A162098768464875733; Max-Age=63072000; Expires=Sun, 14 May 2023 10:21:24 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
-            ],
-            "content-type": "application/json; charset=utf-8",
-            "cache-control": "no-cache, no-store, max-age=0",
-            "content-length": "546",
-            "x-access-level": "read-write-directmessages",
-            "x-frame-options": "SAMEORIGIN",
-            "content-encoding": "gzip",
-            "x-xss-protection": "0",
-            "x-rate-limit-limit": "900",
-            "x-rate-limit-reset": "1620988584",
-            "content-disposition": "attachment; filename=json.json",
-            "x-content-type-options": "nosniff",
-            "x-rate-limit-remaining": "899",
-            "strict-transport-security": "max-age=631138519",
-            "x-connection-hash": "387210de075ef8d44399098c853b7fa0b026cb6e9f6d1f8f0114ef0392024ccf",
-            "connection": "close"
-        },
-        "request": {
-            "uri": {
-                "protocol": "https:",
-                "slashes": true,
-                "auth": null,
-                "host": "api.twitter.com",
-                "port": 443,
-                "hostname": "api.twitter.com",
-                "hash": null,
-                "search": "?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
-                "query": "user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
-                "pathname": "/2/users/by/username/aboutyou_tech",
-                "path": "/2/users/by/username/aboutyou_tech?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
-                "href": "https://api.twitter.com/2/users/by/username/aboutyou_tech?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld"
-            },
-            "method": "GET",
-            "headers": {
-                "Accept": "*/*",
-                "User-Agent": "twit-client",
-                "accept-encoding": "gzip, deflate",
-                "Authorization": "OAuth oauth_consumer_key=\"XilxXNyjKSFLgDfj77GPFIkBc\",oauth_nonce=\"42542a7ab9d94e6eb0e9418710dd8cd2\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1620987684\",oauth_token=\"262432611-wVTmJKBEf9dyyKSKNWxyVlw2X33pIKqCOcbp5zEg\",oauth_version=\"1.0\",oauth_signature=\"H4xrMmYKFL84w58aP%2FLUdRvo2FA%3D\""
-            }
-        }
-    }
+    "name": "ABOUT YOU TECH",
+    "id": "851654519054364672",
+    "location": "Hamburg, Germany",
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png",
+    "description": "Handling more than 750 million API calls/day 🚀\nCutting edge technologies, fashion trends & innovative IT-products like the ABOUT YOU Commerce Suite ☁️",
+    "created_at": "2017-04-11T04:33:55.000Z",
+    "username": "aboutyou_tech"
 }
+

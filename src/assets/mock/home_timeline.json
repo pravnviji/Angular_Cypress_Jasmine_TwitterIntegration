@@ -1,1508 +1,243 @@
-{
-    "data": [
-        {
-            "created_at": "Fri May 14 09:57:28 +0000 2021",
-            "id": 1393143417337753600,
-            "id_str": "1393143417337753604",
-            "full_text": "New #Flutter App! 🚀 Taxi Management App 🙌  #OpenSource\nhttps://t.co/AiqEsdrD5J",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                78
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "Flutter",
-                        "indices": [
-                            4,
-                            12
-                        ]
-                    },
-                    {
-                        "text": "OpenSource",
-                        "indices": [
-                            43,
-                            54
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [],
-                "urls": [
-                    {
-                        "url": "https://t.co/AiqEsdrD5J",
-                        "expanded_url": "https://itsallwidgets.com/taxi-management-app",
-                        "display_url": "itsallwidgets.com/taxi-managemen…",
-                        "indices": [
-                            55,
-                            78
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://itsallwidgets.com\" rel=\"nofollow\">It's All Widgets!</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 1018843473204654100,
-                "id_str": "1018843473204654080",
-                "name": "It's All Widgets!",
-                "screen_name": "itsallwidgets",
-                "location": "",
-                "description": "An open list of apps built with Flutter\n\n@hillelcoren • @scottstoll2017 • @devangelslondon • @ThomasBurkhartB\n\nFollow @FlutterStreams for live stream updates ⏰",
-                "url": "https://t.co/gpxeEYUTIx",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/gpxeEYUTIx",
-                                "expanded_url": "https://itsallwidgets.com",
-                                "display_url": "itsallwidgets.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": []
-                    }
-                },
-                "protected": false,
-                "followers_count": 7240,
-                "friends_count": 151,
-                "listed_count": 112,
-                "created_at": "Mon Jul 16 13:03:08 +0000 2018",
-                "favourites_count": 2014,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 3433,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "000000",
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/1021821127545573376/TxRT22Ak_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021821127545573376/TxRT22Ak_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1018843473204654080/1532456041",
-                "profile_link_color": "1B95E0",
-                "profile_sidebar_border_color": "000000",
-                "profile_sidebar_fill_color": "000000",
-                "profile_text_color": "000000",
-                "profile_use_background_image": false,
-                "has_extended_profile": false,
-                "default_profile": false,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 4,
-            "favorite_count": 2,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 09:41:15 +0000 2021",
-            "id": 1393139334728102000,
-            "id_str": "1393139334728101889",
-            "full_text": "When do I need to use routes and onGeneratedRoute? https://t.co/GdFtv9ALjD\n\nI'm learning about routes in flutter and there are two kinds of routes, which are onGeneratedRoute and Routes. When I used it, I don't see any difference between those two. Are there any use cases that …",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                279
-            ],
-            "entities": {
-                "hashtags": [],
-                "symbols": [],
-                "user_mentions": [],
-                "urls": [
-                    {
-                        "url": "https://t.co/GdFtv9ALjD",
-                        "expanded_url": "https://ift.tt/3howX8y",
-                        "display_url": "ift.tt/3howX8y",
-                        "indices": [
-                            51,
-                            74
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 0,
-            "favorite_count": 0,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 09:41:14 +0000 2021",
-            "id": 1393139329598435300,
-            "id_str": "1393139329598435329",
-            "full_text": "Intermediate: How to integrate Huawei kits (IAP, Crash Service) into learning app (Flutter) https://t.co/EIxv9rXonM /r/HMSCore/comments/mzm4xx/intermediate_how_to_integrate_huawei_kits_iap/ @flutterdev #flutterdev",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                213
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "flutterdev",
-                        "indices": [
-                            202,
-                            213
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [
-                    {
-                        "screen_name": "FlutterDev",
-                        "name": "Flutter",
-                        "id": 420730316,
-                        "id_str": "420730316",
-                        "indices": [
-                            190,
-                            201
-                        ]
-                    }
-                ],
-                "urls": [
-                    {
-                        "url": "https://t.co/EIxv9rXonM",
-                        "expanded_url": "https://ift.tt/2RQsvEX",
-                        "display_url": "ift.tt/2RQsvEX",
-                        "indices": [
-                            92,
-                            115
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 3,
-            "favorite_count": 4,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 08:41:21 +0000 2021",
-            "id": 1393124261448007700,
-            "id_str": "1393124261448007685",
-            "full_text": "Non programmer learning flutter/dart as first language https://t.co/yBih2mBbhC\n\nHi I not developer I have no prior knowledge in programming I came across flutter/dart which really impressed me. I was wondering if this is a good place to start learn programming?\n\n@flutterdev #fl…",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                279
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "fl",
-                        "indices": [
-                            275,
-                            278
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [
-                    {
-                        "screen_name": "FlutterDev",
-                        "name": "Flutter",
-                        "id": 420730316,
-                        "id_str": "420730316",
-                        "indices": [
-                            263,
-                            274
-                        ]
-                    }
-                ],
-                "urls": [
-                    {
-                        "url": "https://t.co/yBih2mBbhC",
-                        "expanded_url": "https://ift.tt/3tFY8hK",
-                        "display_url": "ift.tt/3tFY8hK",
-                        "indices": [
-                            55,
-                            78
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 0,
-            "favorite_count": 0,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 08:41:20 +0000 2021",
-            "id": 1393124256544919600,
-            "id_str": "1393124256544919553",
-            "full_text": "Why can't compiler add 'const' even though Linter knows where it should be? https://t.co/aD0EdEj1q6\n\nRecently I found out that an IDE doesn't warn about all problems with project and one should almost always also use Linter.\n\nWhen I added a Linter file, it went places and shown…",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                279
-            ],
-            "entities": {
-                "hashtags": [],
-                "symbols": [],
-                "user_mentions": [],
-                "urls": [
-                    {
-                        "url": "https://t.co/aD0EdEj1q6",
-                        "expanded_url": "https://ift.tt/3ogx5Zk",
-                        "display_url": "ift.tt/3ogx5Zk",
-                        "indices": [
-                            76,
-                            99
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 1,
-            "favorite_count": 1,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 08:02:11 +0000 2021",
-            "id": 1393114404661522400,
-            "id_str": "1393114404661522438",
-            "full_text": "ஈகை திருநாள் வாழ்த்துக்கள்\n\n#EidMubarak",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                39
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "EidMubarak",
-                        "indices": [
-                            28,
-                            39
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [],
-                "urls": []
-            },
-            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 266737333,
-                "id_str": "266737333",
-                "name": "Goldyn Abric Sam",
-                "screen_name": "goldynsam",
-                "location": "",
-                "description": "#DravidianStock",
-                "url": null,
-                "entities": {
-                    "description": {
-                        "urls": []
-                    }
-                },
-                "protected": false,
-                "followers_count": 304,
-                "friends_count": 248,
-                "listed_count": 0,
-                "created_at": "Tue Mar 15 18:34:42 +0000 2011",
-                "favourites_count": 11257,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 901,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "C0DEED",
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/928325287078641664/wE-SbZiT_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/928325287078641664/wE-SbZiT_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/266737333/1488731938",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 0,
-            "favorite_count": 1,
-            "favorited": false,
-            "retweeted": false,
-            "lang": "ta"
-        },
-        {
-            "created_at": "Fri May 14 07:40:37 +0000 2021",
-            "id": 1393108976078782500,
-            "id_str": "1393108976078782467",
-            "full_text": "He can feel the invisible enemy but he's unable to feel his own incompetency in managing that invisible enemy.. https://t.co/IqxUYUMacS",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                111
-            ],
-            "entities": {
-                "hashtags": [],
-                "symbols": [],
-                "user_mentions": [],
-                "urls": [
-                    {
-                        "url": "https://t.co/IqxUYUMacS",
-                        "expanded_url": "https://twitter.com/ndtv/status/1393100793109127174",
-                        "display_url": "twitter.com/ndtv/status/13…",
-                        "indices": [
-                            112,
-                            135
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 266737333,
-                "id_str": "266737333",
-                "name": "Goldyn Abric Sam",
-                "screen_name": "goldynsam",
-                "location": "",
-                "description": "#DravidianStock",
-                "url": null,
-                "entities": {
-                    "description": {
-                        "urls": []
-                    }
-                },
-                "protected": false,
-                "followers_count": 304,
-                "friends_count": 248,
-                "listed_count": 0,
-                "created_at": "Tue Mar 15 18:34:42 +0000 2011",
-                "favourites_count": 11257,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 901,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "C0DEED",
-                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/928325287078641664/wE-SbZiT_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/928325287078641664/wE-SbZiT_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/266737333/1488731938",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": true,
-            "quoted_status_id": 1393100793109127200,
-            "quoted_status_id_str": "1393100793109127174",
-            "quoted_status_permalink": {
-                "url": "https://t.co/IqxUYUMacS",
-                "expanded": "https://twitter.com/ndtv/status/1393100793109127174",
-                "display": "twitter.com/ndtv/status/13…"
-            },
-            "quoted_status": {
-                "created_at": "Fri May 14 07:08:06 +0000 2021",
-                "id": 1393100793109127200,
-                "id_str": "1393100793109127174",
-                "full_text": "\"Can feel the suffering, pain of those affected by Covid. We are faced with an invisible enemy\": Prime Minister Narendra Modi \n\n#COVID19 https://t.co/j34pFtLlHa",
-                "truncated": false,
-                "display_text_range": [
-                    0,
-                    136
-                ],
-                "entities": {
-                    "hashtags": [
-                        {
-                            "text": "COVID19",
-                            "indices": [
-                                128,
-                                136
-                            ]
-                        }
-                    ],
-                    "symbols": [],
-                    "user_mentions": [],
-                    "urls": [],
-                    "media": [
-                        {
-                            "id": 1393100782325665800,
-                            "id_str": "1393100782325665796",
-                            "indices": [
-                                137,
-                                160
-                            ],
-                            "media_url": "http://pbs.twimg.com/media/E1VJx9LXEAQU_iB.jpg",
-                            "media_url_https": "https://pbs.twimg.com/media/E1VJx9LXEAQU_iB.jpg",
-                            "url": "https://t.co/j34pFtLlHa",
-                            "display_url": "pic.twitter.com/j34pFtLlHa",
-                            "expanded_url": "https://twitter.com/ndtv/status/1393100793109127174/photo/1",
-                            "type": "photo",
-                            "sizes": {
-                                "thumb": {
-                                    "w": 150,
-                                    "h": 150,
-                                    "resize": "crop"
-                                },
-                                "small": {
-                                    "w": 650,
-                                    "h": 400,
-                                    "resize": "fit"
-                                },
-                                "large": {
-                                    "w": 650,
-                                    "h": 400,
-                                    "resize": "fit"
-                                },
-                                "medium": {
-                                    "w": 650,
-                                    "h": 400,
-                                    "resize": "fit"
-                                }
-                            }
-                        }
-                    ]
-                },
-                "extended_entities": {
-                    "media": [
-                        {
-                            "id": 1393100782325665800,
-                            "id_str": "1393100782325665796",
-                            "indices": [
-                                137,
-                                160
-                            ],
-                            "media_url": "http://pbs.twimg.com/media/E1VJx9LXEAQU_iB.jpg",
-                            "media_url_https": "https://pbs.twimg.com/media/E1VJx9LXEAQU_iB.jpg",
-                            "url": "https://t.co/j34pFtLlHa",
-                            "display_url": "pic.twitter.com/j34pFtLlHa",
-                            "expanded_url": "https://twitter.com/ndtv/status/1393100793109127174/photo/1",
-                            "type": "photo",
-                            "sizes": {
-                                "thumb": {
-                                    "w": 150,
-                                    "h": 150,
-                                    "resize": "crop"
-                                },
-                                "small": {
-                                    "w": 650,
-                                    "h": 400,
-                                    "resize": "fit"
-                                },
-                                "large": {
-                                    "w": 650,
-                                    "h": 400,
-                                    "resize": "fit"
-                                },
-                                "medium": {
-                                    "w": 650,
-                                    "h": 400,
-                                    "resize": "fit"
-                                }
-                            }
-                        }
-                    ]
-                },
-                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-                "in_reply_to_status_id": null,
-                "in_reply_to_status_id_str": null,
-                "in_reply_to_user_id": null,
-                "in_reply_to_user_id_str": null,
-                "in_reply_to_screen_name": null,
-                "user": {
-                    "id": 37034483,
-                    "id_str": "37034483",
-                    "name": "NDTV",
-                    "screen_name": "ndtv",
-                    "location": "India",
-                    "description": "Breaking news alerts from India.\n\nInstagram: https://t.co/TDCRCVHlmd\nYouTube: https://t.co/ocjlisfywV",
-                    "url": "https://t.co/6yvEvvCmQi",
-                    "entities": {
-                        "url": {
-                            "urls": [
-                                {
-                                    "url": "https://t.co/6yvEvvCmQi",
-                                    "expanded_url": "http://www.ndtv.com/",
-                                    "display_url": "ndtv.com",
-                                    "indices": [
-                                        0,
-                                        23
-                                    ]
-                                }
-                            ]
-                        },
-                        "description": {
-                            "urls": [
-                                {
-                                    "url": "https://t.co/TDCRCVHlmd",
-                                    "expanded_url": "http://www.instagram.com/ndtv",
-                                    "display_url": "instagram.com/ndtv",
-                                    "indices": [
-                                        45,
-                                        68
-                                    ]
-                                },
-                                {
-                                    "url": "https://t.co/ocjlisfywV",
-                                    "expanded_url": "http://www.youtube.com/ndtv",
-                                    "display_url": "youtube.com/ndtv",
-                                    "indices": [
-                                        78,
-                                        101
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    "protected": false,
-                    "followers_count": 15339988,
-                    "friends_count": 15,
-                    "listed_count": 13264,
-                    "created_at": "Fri May 01 20:34:48 +0000 2009",
-                    "favourites_count": 1,
-                    "utc_offset": null,
-                    "time_zone": null,
-                    "geo_enabled": true,
-                    "verified": true,
-                    "statuses_count": 812012,
-                    "lang": null,
-                    "contributors_enabled": false,
-                    "is_translator": false,
-                    "is_translation_enabled": false,
-                    "profile_background_color": "C0DEED",
-                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-                    "profile_background_tile": false,
-                    "profile_image_url": "http://pbs.twimg.com/profile_images/570440108424171520/QuGYd7jH_normal.png",
-                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/570440108424171520/QuGYd7jH_normal.png",
-                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/37034483/1620015667",
-                    "profile_link_color": "0084B4",
-                    "profile_sidebar_border_color": "FFFFFF",
-                    "profile_sidebar_fill_color": "DDEEF6",
-                    "profile_text_color": "333333",
-                    "profile_use_background_image": true,
-                    "has_extended_profile": false,
-                    "default_profile": false,
-                    "default_profile_image": false,
-                    "following": false,
-                    "follow_request_sent": false,
-                    "notifications": false,
-                    "translator_type": "none",
-                    "withheld_in_countries": []
-                },
-                "geo": null,
-                "coordinates": null,
-                "place": null,
-                "contributors": null,
-                "is_quote_status": false,
-                "retweet_count": 87,
-                "favorite_count": 958,
-                "favorited": false,
-                "retweeted": false,
-                "possibly_sensitive": false,
-                "possibly_sensitive_appealable": false,
-                "lang": "en"
-            },
-            "retweet_count": 0,
-            "favorite_count": 0,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 06:41:40 +0000 2021",
-            "id": 1393094142679519200,
-            "id_str": "1393094142679519233",
-            "full_text": "Flutter Chat App - Let's work on the Login page and Country Page of WhatsApp Clone (pt-1) || #27 https://t.co/pcSOdl729Q https://t.co/b0pklOYMmr @flutterdev #flutterdev",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                168
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "flutterdev",
-                        "indices": [
-                            157,
-                            168
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [
-                    {
-                        "screen_name": "FlutterDev",
-                        "name": "Flutter",
-                        "id": 420730316,
-                        "id_str": "420730316",
-                        "indices": [
-                            145,
-                            156
-                        ]
-                    }
-                ],
-                "urls": [
-                    {
-                        "url": "https://t.co/pcSOdl729Q",
-                        "expanded_url": "https://ift.tt/2RTmAPD",
-                        "display_url": "ift.tt/2RTmAPD",
-                        "indices": [
-                            97,
-                            120
-                        ]
-                    },
-                    {
-                        "url": "https://t.co/b0pklOYMmr",
-                        "expanded_url": "https://youtu.be/AHiCgfu8xec",
-                        "display_url": "youtu.be/AHiCgfu8xec",
-                        "indices": [
-                            121,
-                            144
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 3,
-            "favorite_count": 8,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 04:41:24 +0000 2021",
-            "id": 1393063876401504300,
-            "id_str": "1393063876401504261",
-            "full_text": "Hi can I do ios development using flutter without any of apple devices? https://t.co/9I8EOtvSGt\n\nI have found virtual machine can be used but there seems to be some downside to it. Do any of you practice the same?\n\n@flutterdev #flutterdev",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                238
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "flutterdev",
-                        "indices": [
-                            227,
-                            238
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [
-                    {
-                        "screen_name": "FlutterDev",
-                        "name": "Flutter",
-                        "id": 420730316,
-                        "id_str": "420730316",
-                        "indices": [
-                            215,
-                            226
-                        ]
-                    }
-                ],
-                "urls": [
-                    {
-                        "url": "https://t.co/9I8EOtvSGt",
-                        "expanded_url": "https://ift.tt/3brAaAx",
-                        "display_url": "ift.tt/3brAaAx",
-                        "indices": [
-                            72,
-                            95
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 1,
-            "favorite_count": 3,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        },
-        {
-            "created_at": "Fri May 14 04:41:23 +0000 2021",
-            "id": 1393063872995659800,
-            "id_str": "1393063872995659776",
-            "full_text": "Best Flutter Plugins and Tools for Android Studio of 2021 https://t.co/FXfcA61AUZ\n\nAs a Flutter You cant afford to miss these Plugins and Tools for Flutter Development in 2021!\n\nhttps://t.co/7huI6UDvSW\n\n@flutterdev #flutterdev",
-            "truncated": false,
-            "display_text_range": [
-                0,
-                226
-            ],
-            "entities": {
-                "hashtags": [
-                    {
-                        "text": "flutterdev",
-                        "indices": [
-                            215,
-                            226
-                        ]
-                    }
-                ],
-                "symbols": [],
-                "user_mentions": [
-                    {
-                        "screen_name": "FlutterDev",
-                        "name": "Flutter",
-                        "id": 420730316,
-                        "id_str": "420730316",
-                        "indices": [
-                            203,
-                            214
-                        ]
-                    }
-                ],
-                "urls": [
-                    {
-                        "url": "https://t.co/FXfcA61AUZ",
-                        "expanded_url": "https://ift.tt/3ybDQQv",
-                        "display_url": "ift.tt/3ybDQQv",
-                        "indices": [
-                            58,
-                            81
-                        ]
-                    },
-                    {
-                        "url": "https://t.co/7huI6UDvSW",
-                        "expanded_url": "https://hubpages.com/technology/Check-out-The-Best-Flutter-Plugins-and-Tools-for-Android-Studio",
-                        "display_url": "hubpages.com/technology/Che…",
-                        "indices": [
-                            178,
-                            201
-                        ]
-                    }
-                ]
-            },
-            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
-            "in_reply_to_status_id": null,
-            "in_reply_to_status_id_str": null,
-            "in_reply_to_user_id": null,
-            "in_reply_to_user_id_str": null,
-            "in_reply_to_screen_name": null,
-            "user": {
-                "id": 864156337508425700,
-                "id_str": "864156337508425728",
-                "name": "r/FlutterDev",
-                "screen_name": "r_FlutterDev",
-                "location": "",
-                "description": "r/FlutterDev, a subreddit for Google's portable UI framework. Operated by @jacoplane. Discord chat server: https://t.co/W31ATRbQrG",
-                "url": "https://t.co/eBttiyAjmD",
-                "entities": {
-                    "url": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/eBttiyAjmD",
-                                "expanded_url": "https://FlutterDev.reddit.com",
-                                "display_url": "FlutterDev.reddit.com",
-                                "indices": [
-                                    0,
-                                    23
-                                ]
-                            }
-                        ]
-                    },
-                    "description": {
-                        "urls": [
-                            {
-                                "url": "https://t.co/W31ATRbQrG",
-                                "expanded_url": "http://discord.gg/uMya6wQ",
-                                "display_url": "discord.gg/uMya6wQ",
-                                "indices": [
-                                    107,
-                                    130
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "protected": false,
-                "followers_count": 48745,
-                "friends_count": 3900,
-                "listed_count": 516,
-                "created_at": "Mon May 15 16:31:40 +0000 2017",
-                "favourites_count": 2791,
-                "utc_offset": null,
-                "time_zone": null,
-                "geo_enabled": false,
-                "verified": false,
-                "statuses_count": 12652,
-                "lang": null,
-                "contributors_enabled": false,
-                "is_translator": false,
-                "is_translation_enabled": false,
-                "profile_background_color": "F5F8FA",
-                "profile_background_image_url": null,
-                "profile_background_image_url_https": null,
-                "profile_background_tile": false,
-                "profile_image_url": "http://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_image_url_https": "https://pbs.twimg.com/profile_images/971176720169660416/Rjaq-ruU_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/864156337508425728/1572385561",
-                "profile_link_color": "1DA1F2",
-                "profile_sidebar_border_color": "C0DEED",
-                "profile_sidebar_fill_color": "DDEEF6",
-                "profile_text_color": "333333",
-                "profile_use_background_image": true,
-                "has_extended_profile": false,
-                "default_profile": true,
-                "default_profile_image": false,
-                "following": true,
-                "follow_request_sent": false,
-                "notifications": false,
-                "translator_type": "none",
-                "withheld_in_countries": []
-            },
-            "geo": null,
-            "coordinates": null,
-            "place": null,
-            "contributors": null,
-            "is_quote_status": false,
-            "retweet_count": 3,
-            "favorite_count": 2,
-            "favorited": false,
-            "retweeted": false,
-            "possibly_sensitive": false,
-            "possibly_sensitive_appealable": false,
-            "lang": "en"
-        }
+[{
+    "created_at": "Fri May 14 09:57:28 +0000 2021",
+    "id": 1393143417337753600,
+    "id_str": "1393143417337753604",
+    "full_text": "New #Flutter App! 🚀 Taxi Management App 🙌  #OpenSource\nhttps://t.co/AiqEsdrD5J",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        78
     ],
-    "resp": {
-        "statusCode": 200,
-        "headers": {
-            "date": "Fri, 14 May 2021 10:23:28 GMT",
-            "pragma": "no-cache",
-            "server": "tsa_k",
-            "status": "200 OK",
-            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
-            "set-cookie": [
-                "personalization_id=\"v1_CPyHw6gwEhdAGmk/qvaBNg==\"; Max-Age=63072000; Expires=Sun, 14 May 2023 10:23:28 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None",
-                "lang=en; Path=/",
-                "guest_id=v1%3A162098780735231908; Max-Age=63072000; Expires=Sun, 14 May 2023 10:23:28 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
-            ],
-            "content-type": "application/json;charset=utf-8",
-            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
-            "last-modified": "Fri, 14 May 2021 10:23:28 GMT",
-            "x-transaction": "72a1b02714374f58",
-            "content-length": "4386",
-            "x-access-level": "read-write-directmessages",
-            "x-frame-options": "SAMEORIGIN",
-            "content-encoding": "gzip",
-            "x-xss-protection": "0",
-            "x-rate-limit-limit": "15",
-            "x-rate-limit-reset": "1620988707",
-            "content-disposition": "attachment; filename=json.json",
-            "x-content-type-options": "nosniff",
-            "x-rate-limit-remaining": "14",
-            "x-twitter-response-tags": "BouncerCompliant",
-            "strict-transport-security": "max-age=631138519",
-            "x-connection-hash": "507c54f83a3b6a5e75475910bf10f087c14aac9bcd728fb5fc5c8644057a913a",
-            "connection": "close"
-        },
-        "request": {
-            "uri": {
-                "protocol": "https:",
-                "slashes": true,
-                "auth": null,
-                "host": "api.twitter.com",
-                "port": 443,
-                "hostname": "api.twitter.com",
-                "hash": null,
-                "search": "?tweet_mode=extended&count=10",
-                "query": "tweet_mode=extended&count=10",
-                "pathname": "/1.1/statuses/home_timeline.json",
-                "path": "/1.1/statuses/home_timeline.json?tweet_mode=extended&count=10",
-                "href": "https://api.twitter.com/1.1/statuses/home_timeline.json?tweet_mode=extended&count=10"
+    "entities": {
+        "hashtags": [
+            {
+                "text": "Flutter",
+                "indices": [
+                    4,
+                    12
+                ]
             },
-            "method": "GET",
-            "headers": {
-                "Accept": "*/*",
-                "User-Agent": "twit-client",
-                "Content-type": "application/json",
-                "accept-encoding": "gzip, deflate",
-                "Authorization": "OAuth oauth_consumer_key=\"XilxXNyjKSFLgDfj77GPFIkBc\",oauth_nonce=\"0c65055649d84ecf923e3ba08695d3c5\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1620987806\",oauth_token=\"262432611-wVTmJKBEf9dyyKSKNWxyVlw2X33pIKqCOcbp5zEg\",oauth_version=\"1.0\",oauth_signature=\"8sdWx7wv8P%2FoIiLeYT7%2F44syHAM%3D\""
+            {
+                "text": "OpenSource",
+                "indices": [
+                    43,
+                    54
+                ]
             }
-        }
-    }
-}
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/AiqEsdrD5J",
+                "expanded_url": "https://itsallwidgets.com/taxi-management-app",
+                "display_url": "itsallwidgets.com/taxi-managemen…",
+                "indices": [
+                    55,
+                    78
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"https://itsallwidgets.com\" rel=\"nofollow\">It's All Widgets!</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1018843473204654100,
+        "id_str": "1018843473204654080",
+        "name": "It's All Widgets!",
+        "screen_name": "itsallwidgets",
+        "location": "",
+        "description": "An open list of apps built with Flutter\n\n@hillelcoren • @scottstoll2017 • @devangelslondon • @ThomasBurkhartB\n\nFollow @FlutterStreams for live stream updates ⏰",
+        "url": "https://t.co/gpxeEYUTIx",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/gpxeEYUTIx",
+                        "expanded_url": "https://itsallwidgets.com",
+                        "display_url": "itsallwidgets.com",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 7240,
+        "friends_count": 151,
+        "listed_count": 112,
+        "created_at": "Mon Jul 16 13:03:08 +0000 2018",
+        "favourites_count": 2014,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3433,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1021821127545573376/TxRT22Ak_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021821127545573376/TxRT22Ak_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1018843473204654080/1532456041",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+},{
+    "created_at": "Fri May 14 09:57:28 +0000 2021",
+    "id": 1393143417337753600,
+    "id_str": "1393143417337753604",
+    "full_text": "New #Flutter App! 🚀 Taxi Management App 🙌  #OpenSource\nhttps://t.co/AiqEsdrD5J",
+    "truncated": false,
+    "display_text_range": [
+        0,
+        78
+    ],
+    "entities": {
+        "hashtags": [
+            {
+                "text": "Flutter",
+                "indices": [
+                    4,
+                    12
+                ]
+            },
+            {
+                "text": "OpenSource",
+                "indices": [
+                    43,
+                    54
+                ]
+            }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+            {
+                "url": "https://t.co/AiqEsdrD5J",
+                "expanded_url": "https://itsallwidgets.com/taxi-management-app",
+                "display_url": "itsallwidgets.com/taxi-managemen…",
+                "indices": [
+                    55,
+                    78
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"https://itsallwidgets.com\" rel=\"nofollow\">It's All Widgets!</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1018843473204654100,
+        "id_str": "1018843473204654080",
+        "name": "It's All Widgets!",
+        "screen_name": "itsallwidgets",
+        "location": "",
+        "description": "An open list of apps built with Flutter\n\n@hillelcoren • @scottstoll2017 • @devangelslondon • @ThomasBurkhartB\n\nFollow @FlutterStreams for live stream updates ⏰",
+        "url": "https://t.co/gpxeEYUTIx",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/gpxeEYUTIx",
+                        "expanded_url": "https://itsallwidgets.com",
+                        "display_url": "itsallwidgets.com",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 7240,
+        "friends_count": 151,
+        "listed_count": 112,
+        "created_at": "Mon Jul 16 13:03:08 +0000 2018",
+        "favourites_count": 2014,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3433,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1021821127545573376/TxRT22Ak_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021821127545573376/TxRT22Ak_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1018843473204654080/1532456041",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+}]
