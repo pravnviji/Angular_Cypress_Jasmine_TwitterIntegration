@@ -20,8 +20,8 @@ export class MainComponent implements OnInit {
     public fileName = `MainComponent`;
 
     constructor(
-        private twitterService: TwitterService,
-        private logger: Logger
+        public twitterService: TwitterService,
+        public logger: Logger
     ) {}
 
     ngOnInit(): void {

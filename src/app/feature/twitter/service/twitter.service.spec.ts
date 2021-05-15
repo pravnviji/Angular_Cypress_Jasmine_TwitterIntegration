@@ -5,10 +5,13 @@ import {
     HttpTestingController,
 } from '@angular/common/http/testing';
 
-import { ITweetUserProfile, ITweetUserHeadlines } from './twitter-feed.interface';
+import {
+    ITweetUserProfile,
+    ITweetUserHeadlines,
+    ITweetUser,
+} from './twitter-feed.interface';
 
 import { TwitterService } from './twitter.service';
-declare var require: any;
 
 const dummyUserProfile: ITweetUserProfile = {
     id: 851654519054364672,
@@ -22,21 +25,21 @@ const dummyUserProfile: ITweetUserProfile = {
 };
 
 const dummyUserHeadLine: ITweetUserHeadlines = {
-        id: 1,
-        full_text: 'sample test',
+    id: 1,
+    full_text: 'sample test',
+    created_at: '2017-04-11T04:33:55.000Z',
+    retweat_count: 1,
+    favorite_count: 2,
+    user: {
+        profile_image_url:
+            'https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png',
+        profile_banner_url:
+            'https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png',
+        name: 'itsallwidgets',
+        screen_name: 'itsallwidgets',
         created_at: '2017-04-11T04:33:55.000Z',
-        retweat_count: 1,
-        favorite_count: 2,
-        user: {
-            profile_image_url:
-                'https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png',
-            profile_banner_url:
-                'https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png',
-            name: 'itsallwidgets',
-            screen_name: 'itsallwidgets',
-            created_at: '2017-04-11T04:33:55.000Z',
-        },
-    };
+    } as ITweetUser,
+};
 
 describe('TwitterService', () => {
     let serviceTest: TwitterService;
@@ -64,7 +67,7 @@ describe('TwitterService', () => {
     });
 
     it('getUserProfile() should check valid URL and mapGetUserProfile should called', () => {
-        serviceTest.getUserProfile().subscribe((res) => {});
+        serviceTest.getUserProfile().subscribe();
         const reqMock = httpMock.expectOne(
             (req) =>
                 req.method === 'GET' &&
@@ -74,7 +77,7 @@ describe('TwitterService', () => {
         reqMock.flush(dummyUserProfile);
     });
     it('getHomeTimeLine()  should check valid URL and mapGetHomeTimeline should called', () => {
-        serviceTest.getHomeTimeLine().subscribe((res) => {});
+        serviceTest.getHomeTimeLine().subscribe();
         const reqMock = httpMock.expectOne(
             (req) =>
                 req.method === 'GET' &&
@@ -85,7 +88,7 @@ describe('TwitterService', () => {
     });
 
     it('getUserTimeLine()  should check valid URL and mapGetHomeTimeline should called', () => {
-        serviceTest.getUserTimeLine().subscribe((res) => {});
+        serviceTest.getUserTimeLine().subscribe();
         const reqMock = httpMock.expectOne(
             (req) =>
                 req.method === 'GET' &&
@@ -96,7 +99,7 @@ describe('TwitterService', () => {
     });
 
     it('getUserMentionsTimeLine()  should check valid URL and mapGetHomeTimeline should called', () => {
-        serviceTest.getUserMentionsTimeLine().subscribe((res) => {});
+        serviceTest.getUserMentionsTimeLine().subscribe();
         const reqMock = httpMock.expectOne(
             (req) =>
                 req.method === 'GET' &&
@@ -156,7 +159,8 @@ describe('TwitterService', () => {
                 status: 'true',
                 statusCode: 200,
             },
-                data: [{
+            data: [
+                {
                     id: 1,
                     full_text: 'sample test',
                     created_at: '2017-04-11T04:33:55.000Z',
@@ -171,8 +175,8 @@ describe('TwitterService', () => {
                         screen_name: 'itsallwidgets',
                         created_at: '2017-04-11T04:33:55.000Z',
                     },
-                }]
-            
+                },
+            ],
         };
         const result = serviceTest.mapGetHomeTimeline(resultData2);
         expect(result).toEqual([dummyUserHeadLine]);
