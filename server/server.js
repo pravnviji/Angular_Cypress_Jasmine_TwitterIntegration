@@ -2,12 +2,14 @@ const express = require('express');
 const Twitter = require('twit');
 const app = express();
 const http = require('http');
+
 const client = new Twitter({
-    consumer_key: 'd5jQppf3e4IHKR0KrhNA3c2aH',
-    consumer_secret: 'hkq2AKuUnQDJiYHzKo8W2tcdepRF72by8eiTiuJwA2KF8dDV4A',
-    access_token: '55864924-xnAJa0ZK62UoQmw3BU2IdMh4Sx7nBy3zYEG1OcbCY',
-    access_token_secret: 'Fz0kK5aESctmJThyFqWIVmOTQ9XquaQhBBknXYe5NfE4S'
+    consumer_key: `{{API KEY}}`,
+    consumer_secret: `{{API TOKEN}}`,
+    access_token: `{{ACCESS TOKEN}}`,
+    access_token_secret: `{{ ACCESS TOKEN SECRET}}`
 });
+
 const user_screen = 'aboutyou_tech';
 const user_id = '1318536307216363520';
 
