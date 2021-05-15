@@ -1,4 +1,4 @@
-import { Component, isDevMode, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Logger } from './core/logger.service';
 
 @Component({
@@ -6,15 +6,6 @@ import { Logger } from './core/logger.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'Twitter';
-
-  public constructor(private _log: Logger) {
-   }
-   
-  public ngOnInit() {
-    if (!isDevMode()) {
-      this._log.enableProductionMode();
-    }
-  }
 }

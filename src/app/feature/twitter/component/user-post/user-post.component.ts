@@ -20,8 +20,8 @@ export class UserPostComponent implements OnInit {
 
 
     constructor(
-        private twitterService: TwitterService,
-        private logger: Logger
+        public twitterService: TwitterService,
+        public logger: Logger
     ) {}
 
     ngOnInit(): void {
@@ -47,7 +47,7 @@ export class UserPostComponent implements OnInit {
         this.tweet = '';
         if (result.data && result.resp.statusCode === 200){
             alert(`Successfully posted. Please refresh the page`);
-        } else if (result.statusCode === 403){
+        } else{
             alert(` Sorry Content already posted | Server configuration is not correct`);
         }
     }

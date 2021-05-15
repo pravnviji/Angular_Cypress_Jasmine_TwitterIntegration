@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">9.09% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>2/22</span>
+                <span class='fraction'>21/21</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/6</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/5</span>
+                <span class='fraction'>5/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">4.76% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/21</span>
+                <span class='fraction'>20/20</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -129,39 +129,39 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -183,39 +183,39 @@ export class UserPostComponent implements OnInit {
     @Input()
     public usermentionslines: any;
     public tweet: string;
-    public <span class="cstat-no" title="statement not covered" >fileName = `UserPostComponent`;</span>
+    public fileName = `UserPostComponent`;
 &nbsp;
 &nbsp;
-<span class="fstat-no" title="function not covered" >    constructor(</span>
-        private <span class="cstat-no" title="statement not covered" >twitterService: TwitterService,</span>
-        private <span class="cstat-no" title="statement not covered" >logger: Logger</span>
+    constructor(
+        public twitterService: TwitterService,
+        public logger: Logger
     ) {}
 &nbsp;
-<span class="fstat-no" title="function not covered" >    ngOnInit(</span>): void {
-<span class="cstat-no" title="statement not covered" >        this.logger.debug(this.fileName, `userFeeddata`);</span>
-<span class="cstat-no" title="statement not covered" >        this.logger.debug(this.fileName, this.userheadlines);</span>
+    ngOnInit(): void {
+        this.logger.debug(this.fileName, `userFeeddata`);
+        this.logger.debug(this.fileName, this.userheadlines);
     }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    postTweet = <span class="fstat-no" title="function not covered" >() =</span>&gt; {</span>
-<span class="cstat-no" title="statement not covered" >        this.logger.debug(this.fileName, `post tweet`);</span>
-<span class="cstat-no" title="statement not covered" >        this.logger.debug(this.fileName, this.tweet);</span>
-        const reqObj = <span class="cstat-no" title="statement not covered" >{ status: this.tweet};</span>
-<span class="cstat-no" title="statement not covered" >        this.twitterService.postUserTweet(reqObj).subscribe(this.postedTweet);</span>
+    postTweet = () =&gt; {
+        this.logger.debug(this.fileName, `post tweet`);
+        this.logger.debug(this.fileName, this.tweet);
+        const reqObj = { status: this.tweet};
+        this.twitterService.postUserTweet(reqObj).subscribe(this.postedTweet);
     }
 &nbsp;
-    public <span class="cstat-no" title="statement not covered" >postedTweet = <span class="fstat-no" title="function not covered" >(r</span>esult: any) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >      this.logger.debug(this.fileName, `postedTweet`);</span>
-<span class="cstat-no" title="statement not covered" >      this.logger.debug(this.fileName, result);</span>
-<span class="cstat-no" title="statement not covered" >      this.showModal(result);</span>
+    public postedTweet = (result: any) =&gt; {
+      this.logger.debug(this.fileName, `postedTweet`);
+      this.logger.debug(this.fileName, result);
+      this.showModal(result);
       
     }
 &nbsp;
-    public <span class="cstat-no" title="statement not covered" >showModal = <span class="fstat-no" title="function not covered" >(r</span>esult) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >        this.tweet = '';</span>
-<span class="cstat-no" title="statement not covered" >        if (result.data &amp;&amp; result.resp.statusCode === 200){</span>
-<span class="cstat-no" title="statement not covered" >            alert(`Successfully posted. Please refresh the page`);</span>
-        } else <span class="cstat-no" title="statement not covered" >if (result.statusCode === 403){</span>
-<span class="cstat-no" title="statement not covered" >            alert(` Sorry Content already posted | Server configuration is not correct`);</span>
+    public showModal = (result) =&gt; {
+        this.tweet = '';
+        if (result.data &amp;&amp; result.resp.statusCode === 200){
+            alert(`Successfully posted. Please refresh the page`);
+        } else{
+            alert(` Sorry Content already posted | Server configuration is not correct`);
         }
     }
 }
@@ -226,7 +226,7 @@ export class UserPostComponent implements OnInit {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Sun May 16 2021 00:40:22 GMT+0800 (Malaysia Time)
+                at Sun May 16 2021 07:46:10 GMT+0800 (Malaysia Time)
             </div>
         </div>
         <script src="../../../../../../prettify.js"></script>

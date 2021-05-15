@@ -19,7 +19,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
-      providers: [{provide: Logger, userClass: MockLoggerService}]
+      providers: []
     }).compileComponents();
   }));
 

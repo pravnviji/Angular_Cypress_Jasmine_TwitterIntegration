@@ -84,4 +84,14 @@ export class TwitterServiceStub {
             ],
         });
     }
+
+    postUserTweet(req){
+        return of({
+            data : {
+                status : ' success',
+                statusCode : 200,
+                description : 'Successfully posted'
+            }
+        });
+    }
 }
