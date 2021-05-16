@@ -1,8 +1,6 @@
 const express = require('express');
 const Twitter = require('twit');
 const app = express();
-const http = require('http');
-
 
 const client = new Twitter({
     consumer_key: `{{API KEY}}`,
@@ -82,11 +80,7 @@ app.get('/tweets', (req, res) => {
 });
 
 app.post('/post_tweet', (req, res) => {
-    // tweet = {status:"Hello world"};
-    console.log('post_tweet');
     console.log(req.body);
-   // tweet = {status:"Testing TwitterApi with Angular Components"}
-	
     client
         .post(`statuses/update`, req.body)
         .then((timeline) => {
@@ -101,11 +95,8 @@ app.post('/post_tweet', (req, res) => {
 });
 
 app.post('/retweet', (req, res) => {
-    // tweet = {status:"Hello world"};
     console.log('retweet');
     console.log(req.body);
-   // tweet = {status:"Testing TwitterApi with Angular Components"}
-	
    var tweetId = 'XXXXX';
    client.post('statuses/retweet/' + tweetId, function(error, tweet, response) {
      if (!error) {

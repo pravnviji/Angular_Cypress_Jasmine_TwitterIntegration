@@ -10,6 +10,7 @@
     "lint": "ng lint",
     "prod": "ng build --prod",
     "e2e": "ng e2e",
+    "compodoc": "npx compodoc -p tsconfig.doc.json",
     "build:stats": "ng build --stats-json",
     "format:test": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --list-different",
     "format:write": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --write",

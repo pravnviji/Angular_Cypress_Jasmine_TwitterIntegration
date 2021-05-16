@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { TwitterService, ITweetUserProfile } from '../../service';
+import { TwitterService, ITweetUserHeadlines } from '../../service';
 import { Logger } from '../../../../core/logger.service';
 
 @Component({
@@ -10,11 +9,11 @@ import { Logger } from '../../../../core/logger.service';
 })
 export class UserPostComponent implements OnInit {
     @Input() 
-    public userheadlines: any;
+    public userheadlines: ITweetUserHeadlines;
     @Input() 
-    public usertimelines: any;
+    public usertimelines: ITweetUserHeadlines;
     @Input()
-    public usermentionslines: any;
+    public usermentionslines: ITweetUserHeadlines;
     public tweet: string;
     public fileName = `UserPostComponent`;
 
@@ -36,14 +35,14 @@ export class UserPostComponent implements OnInit {
         this.twitterService.postUserTweet(reqObj).subscribe(this.postedTweet);
     }
 
-    public postedTweet = (result: any) => {
+    postedTweet = (result: any) => {
       this.logger.debug(this.fileName, `postedTweet`);
       this.logger.debug(this.fileName, result);
       this.showModal(result);
       
     }
 
-    public showModal = (result) => {
+     showModal = (result) => {
         this.tweet = '';
         if (result.data && result.resp.statusCode === 200){
             alert(`Successfully posted. Please refresh the page`);

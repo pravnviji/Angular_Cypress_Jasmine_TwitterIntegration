@@ -3,31 +3,29 @@
   else emptyTemplate
 "></ng-container>
 
-
 <ng-template #userProfileTemplate>
 
-<div class="app-main">
-	<app-userprofile  [userprofiledata]="(userFeedAsyncResult$ | async)?.user">
-	</app-userprofile>
-	<div class="app-main__centered">
-		<app-user-post [userheadlines]="(userFeedAsyncResult$ | async)?.getHeadLines"
-		[usertimelines]="(userFeedAsyncResult$ | async)?.getUserTimeLines"
-		[usermentionslines]="(userFeedAsyncResult$ | async)?.getMentionTimeLines"
-		></app-user-post>
+	<div class="app-main">
+		<app-userprofile [userprofiledata]="(userFeedAsyncResult$ | async)?.user">
+		</app-userprofile>
+		<div class="app-main__centered">
+			<app-user-post [userheadlines]="(userFeedAsyncResult$ | async)?.getHeadLines"
+				[usertimelines]="(userFeedAsyncResult$ | async)?.getUserTimeLines"
+				[usermentionslines]="(userFeedAsyncResult$ | async)?.getMentionTimeLines"></app-user-post>
+		</div>
 	</div>
-</div>
-<router-outlet></router-outlet>
+	<router-outlet></router-outlet>
 </ng-template>
 
 <ng-template #emptyTemplate>
 	<div class="app-main__empty-container">
-		 Please configure the server settings to access Twitter API. Update below parameter in Server.js
-		 <ol>
+		Please configure the server settings to access Twitter API. Update below parameter in Server.js
+		<ol>
 			<li>consumer_key</li>
 			<li>consumer_secret</li>
 			<li>access_token</li>
 			<li>access_token_secret</li>
 			<li>bearer_token</li>
-		  </ol>
+		</ol>
 	</div>
-  </ng-template>
+</ng-template>

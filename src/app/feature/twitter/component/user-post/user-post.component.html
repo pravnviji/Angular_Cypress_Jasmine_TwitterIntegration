@@ -1,20 +1,12 @@
-
-
 <label class="app-user-post__lbl">Post your Tweet</label><br>
 
 <div class="p-fluid p-grid app-user-post__tweet-area">
-<div class="p-field p-col-1">
-    <span class="p-float-label">
-      <textarea
-        inputId="tweetArea"
-        rows="3"
-        cols="30"
-        [(ngModel)]="tweet"
-        pInputTextarea
-      ></textarea>
-      <label for="textarea">Post your tweet...</label>
-    </span>
-</div><br>
+    <div class="p-field p-col-1">
+        <span class="p-float-label">
+            <textarea inputId="tweetArea" rows="3" cols="30" [(ngModel)]="tweet" pInputTextarea></textarea>
+            <label for="textarea">Post your tweet...</label>
+        </span>
+    </div><br>
 </div>
 <p-button label="Tweet" (click)="postTweet()"></p-button>
 
@@ -25,7 +17,7 @@
             <app-user-feed [userfeeddata]="usertimelines"></app-user-feed>
         </p-tabPanel>
         <p-tabPanel header="Tweets & Retweets">
-           <app-user-feed [userfeeddata]="userheadlines"></app-user-feed>
+            <app-user-feed [userfeeddata]="userheadlines"></app-user-feed>
         </p-tabPanel>
         <p-tabPanel header="Mentions">
             <app-user-feed [userfeeddata]="usermentionslines"></app-user-feed>

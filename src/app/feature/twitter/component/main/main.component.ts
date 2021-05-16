@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { forkJoin, Observable, Subscription } from 'rxjs';
-import { map, tap, catchError } from 'rxjs/operators';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { forkJoin, Observable } from 'rxjs';
+import { map, catchError } from 'rxjs/operators';
 import {
     TwitterService,
     ITweetUserProfile,
-    ITweetUserHeadlines,
     ITweetResponse,
+    ITweetUserHeadlines
 } from '../../service';
+import { untilDestroyed } from '../../../../core/until-destroyed';
 import { Logger } from '../../../../core/logger.service';
 
 @Component({
@@ -14,15 +15,17 @@ import { Logger } from '../../../../core/logger.service';
     templateUrl: './main.component.html',
     styleUrls: ['./main.component.scss'],
 })
-export class MainComponent implements OnInit {
-    public userProfileAsyncResult$: Observable<any>;
-    public userFeedAsyncResult$: Observable<any>;
+export class MainComponent implements OnInit, OnDestroy {
+    public userFeedAsyncResult$: Observable<ITweetResponse>;
     public fileName = `MainComponent`;
 
     constructor(
         public twitterService: TwitterService,
         public logger: Logger
     ) {}
+    ngOnDestroy(): void {
+        throw new Error('Method not implemented.');
+    }
 
     ngOnInit(): void {
         this.userFeedAsyncResult$ = this.twitterData();
@@ -30,14 +33,14 @@ export class MainComponent implements OnInit {
         this.logger.debug(this.fileName, this.userFeedAsyncResult$);
         // tslint:disable-next-line: deprecation
     }
-    public twitterData(): Observable<any> {
-        // Observable.forkJoin (RxJS 5) changes to just forkJoin() in RxJS 6
+    public twitterData(): Observable<ITweetResponse> {
         return forkJoin([
             this.twitterService.getUserProfile(),
             this.twitterService.getHomeTimeLine(),
             this.twitterService.getUserTimeLine(),
             this.twitterService.getUserMentionsTimeLine(),
         ]).pipe(
+            untilDestroyed(this),
             catchError(async (error) => this.onGetFeedError(error)),
             map((result) => tranformResult(result))
         );
@@ -49,6 +52,7 @@ export class MainComponent implements OnInit {
     };
 }
 
+// tslint:disable-next-line: typedef
 export function tranformResult(result) {
     console.log(`tranformResult`);
     console.log(`MainComponent`, result);

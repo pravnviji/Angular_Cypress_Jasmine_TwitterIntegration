@@ -1,29 +1,27 @@
-.app-main{
-  right: 0;
-  background-color: white;
-  &__centered{
-	position: absolute;
-	top: 50%;
-	left: 36%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-  }
+.app-main {
+    right: 0;
+    background-color: white;
+    &__centered {
+        position: absolute;
+        top: 50%;
+        left: 36%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 
-
-  &__empty-container ul li a{
-	text-align: center;
-    margin-top: 20%;
-  font-family: 'Alegreya-Regular';
-	font-size:20px;
-	font-weight: bold;
-	display: block;
-    text-shadow: 1px 1px 1px #757575;
-    border-right: 1px solid rgba(217, 217, 217, 0);
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-
-  }
+    &__empty-container ul li a {
+        text-align: center;
+        margin-top: 20%;
+        font-family: 'Alegreya-Regular';
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        text-shadow: 1px 1px 1px #757575;
+        border-right: 1px solid rgba(217, 217, 217, 0);
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+    }
 }
