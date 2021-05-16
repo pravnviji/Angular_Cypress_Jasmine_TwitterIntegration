@@ -44,31 +44,46 @@ describe('UserPostComponent', () => {
     });
 
     it('postTweet() should called postedTweet method with mockresult', () => {
-       component.tweet = 'test';
-       component.postTweet();
-       component.twitterService.postUserTweet(component.tweet ).subscribe(res =>{
-        expect(component.postedTweet).toHaveBeenCalledWith(res);
-      });
+        component.tweet = 'test';
+        component.postTweet();
+        component.twitterService
+            .postUserTweet(component.tweet)
+            .subscribe((res) => {
+                expect(component.postedTweet).toHaveBeenCalledWith(res);
+            });
     });
 
     it('postedTweet() should called showModal method with mockresult', () => {
-      const result = { data : { description : 'test'}, resp: { statusCode : 200}};
-      spyOn(component, 'showModal').withArgs(result).and.callThrough();
-      component.postedTweet(result);
-      expect(component.showModal).toHaveBeenCalledWith(result);
-   });
+        const result = {
+            data: { description: 'test' },
+            resp: { statusCode: 200 },
+        };
+        spyOn(component, 'showModal').withArgs(result).and.callThrough();
+        component.postedTweet(result);
+        expect(component.showModal).toHaveBeenCalledWith(result);
+    });
 
     it('showModal() should call alert if statusCode is 200', () => {
-    const result = { data : { description : 'test'}, resp: { statusCode : 200}};
-    spyOn(window, 'alert');
-    component.showModal(result);
-    expect(window.alert).toHaveBeenCalledWith(`Successfully posted. Please refresh the page`);
- });
+        const result = {
+            data: { description: 'test' },
+            resp: { statusCode: 200 },
+        };
+        spyOn(window, 'alert');
+        component.showModal(result);
+        expect(window.alert).toHaveBeenCalledWith(
+            `Successfully posted. Please refresh the page`
+        );
+    });
 
     it('showModal() should call alert if statusCode is  403', () => {
-  const result = { statusCode : 403 };
-  spyOn(window, 'alert');
-  component.showModal(result);
-  expect(window.alert).toHaveBeenCalledWith(` Sorry Content already posted | Server configuration is not correct`);
-});
+        const result = {
+            data: null,
+            resp: { statusCode: 403 },
+        };
+        spyOn(window, 'alert');
+        component.showModal(result);
+        expect(window.alert).toHaveBeenCalledWith(
+            ` Sorry Content already posted | Server configuration is not correct`
+        );
+    });
 });

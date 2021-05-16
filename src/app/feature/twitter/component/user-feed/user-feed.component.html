@@ -1,5 +1,6 @@
 <div class="app-user-feed__row app-user-feed__wrapper">
-	<ng-container *ngFor="let feedData of userfeeddata; let i = index;">
+	<ng-container *ngFor="let feedData of userfeeddata; let i = index;"> 
+
 		<div class="app-user-feed__container">
 			<img class="app-user-feed__profile-img" *ngIf="feedData.user.profile_image_url"
 				[src]="feedData.user.profile_image_url">

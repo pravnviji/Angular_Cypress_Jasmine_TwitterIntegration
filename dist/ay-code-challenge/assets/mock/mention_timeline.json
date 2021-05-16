@@ -1,0 +1,63 @@
+{
+    "data": [],
+    "resp": {
+        "statusCode": 200,
+        "headers": {
+            "date": "Fri, 14 May 2021 10:23:49 GMT",
+            "pragma": "no-cache",
+            "server": "tsa_k",
+            "status": "200 OK",
+            "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+            "set-cookie": [
+                "personalization_id=\"v1_uRGiGVOBQ7HGZObDw5iTpQ==\"; Max-Age=63072000; Expires=Sun, 14 May 2023 10:23:49 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None",
+                "lang=en; Path=/",
+                "guest_id=v1%3A162098782931742409; Max-Age=63072000; Expires=Sun, 14 May 2023 10:23:49 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
+            ],
+            "content-type": "application/json;charset=utf-8",
+            "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+            "last-modified": "Fri, 14 May 2021 10:23:49 GMT",
+            "x-transaction": "cebc25742ce7c67d",
+            "content-length": "28",
+            "x-access-level": "read-write-directmessages",
+            "x-frame-options": "SAMEORIGIN",
+            "content-encoding": "gzip",
+            "x-xss-protection": "0",
+            "x-rate-limit-limit": "75",
+            "x-rate-limit-reset": "1620988729",
+            "content-disposition": "attachment; filename=json.json",
+            "x-app-rate-limit-limit": "100000",
+            "x-app-rate-limit-reset": "1621061725",
+            "x-content-type-options": "nosniff",
+            "x-rate-limit-remaining": "74",
+            "x-twitter-response-tags": "BouncerCompliant",
+            "strict-transport-security": "max-age=631138519",
+            "x-app-rate-limit-remaining": "99994",
+            "x-connection-hash": "a7586a5063b64e154162998dc6ba3ebce4295d62f60d8433b46e1bcdc068f95a",
+            "connection": "close"
+        },
+        "request": {
+            "uri": {
+                "protocol": "https:",
+                "slashes": true,
+                "auth": null,
+                "host": "api.twitter.com",
+                "port": 443,
+                "hostname": "api.twitter.com",
+                "hash": null,
+                "search": "?tweet_mode=extended&count=10",
+                "query": "tweet_mode=extended&count=10",
+                "pathname": "/1.1/statuses/mentions_timeline.json",
+                "path": "/1.1/statuses/mentions_timeline.json?tweet_mode=extended&count=10",
+                "href": "https://api.twitter.com/1.1/statuses/mentions_timeline.json?tweet_mode=extended&count=10"
+            },
+            "method": "GET",
+            "headers": {
+                "Accept": "*/*",
+                "User-Agent": "twit-client",
+                "Content-type": "application/json",
+                "accept-encoding": "gzip, deflate",
+                "Authorization": "OAuth oauth_consumer_key=\"XilxXNyjKSFLgDfj77GPFIkBc\",oauth_nonce=\"6af17de7f3fd4ac2a685906f1529179d\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1620987828\",oauth_token=\"262432611-wVTmJKBEf9dyyKSKNWxyVlw2X33pIKqCOcbp5zEg\",oauth_version=\"1.0\",oauth_signature=\"St65FW%2BVqIlueFbWYcooA2iiArc%3D\""
+            }
+        }
+    }
+}
