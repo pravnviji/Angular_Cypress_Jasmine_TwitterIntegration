@@ -1,4 +1,4 @@
-<ng-container *ngIf="(userFeedAsyncResult$ | async ) as userFeedAsyncResult
+<ng-container *ngIf="(userFeedAsyncResult$ | async )?.user
   then userProfileTemplate;
   else emptyTemplate
 "></ng-container>
