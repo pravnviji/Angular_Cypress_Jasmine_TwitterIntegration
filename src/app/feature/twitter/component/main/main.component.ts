@@ -3,9 +3,9 @@ import { forkJoin, Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 import {
     TwitterService,
-    ITweetUserProfile,
     ITweetResponse,
-    ITweetUserHeadlines
+    TtweetUserProfile,
+    TtweetUserHeadlines
 } from '../../service';
 import { untilDestroyed } from '../../../../core/until-destroyed';
 import { Logger } from '../../../../core/logger.service';
@@ -23,6 +23,7 @@ export class MainComponent implements OnInit, OnDestroy {
         public twitterService: TwitterService,
         public logger: Logger
     ) {}
+    
     ngOnDestroy(): void {
         throw new Error('Method not implemented.');
     }
@@ -46,21 +47,21 @@ export class MainComponent implements OnInit, OnDestroy {
         );
     }
 
-    onGetFeedError = (error): void => {
+    onGetFeedError = (error: any): void => {
         this.logger.debug(this.fileName, `onGetFeedError`);
         this.logger.debug(this.fileName, error);
-    };
+    }
 }
 
 // tslint:disable-next-line: typedef
-export function tranformResult(result) {
+export function tranformResult(result: any) {
     console.log(`tranformResult`);
     console.log(`MainComponent`, result);
-    const userData: ITweetUserProfile = result[0];
-    const getHeadLinesData: ITweetUserHeadlines[] = result[1];
-    const getUserTimeLinesData: ITweetUserHeadlines[] = result[2];
-    const getMentionTimeLinesData: ITweetUserHeadlines[] = result[3];
-    console.log({
+    const userData: TtweetUserProfile = result[0];
+    const getHeadLinesData: TtweetUserHeadlines = result[1];
+    const getUserTimeLinesData: TtweetUserHeadlines = result[2];
+    const getMentionTimeLinesData: TtweetUserHeadlines = result[3];
+    console.table({
         user: userData,
         getHeadLines: getHeadLinesData,
         getUserTimeLines: getUserTimeLinesData,
