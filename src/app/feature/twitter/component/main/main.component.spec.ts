@@ -115,9 +115,10 @@ describe('MainComponent', () => {
     });
 
     it('ngOnit() should called twitterData()', () => {
+        spyOn(component,'twitterData');
         component.ngOnInit();
         // tslint:disable-next-line: no-unused-expression
-        expect(component.twitterData).toHaveBeenCalled;
+        expect(component.twitterData).toHaveBeenCalled();
     });
 
     it('twitterData() should create and call all service methods', () => {
@@ -138,7 +139,7 @@ describe('MainComponent', () => {
     });
 
     it('should set Error message when twitterData() is errored out', () => {
-        const errorAsync = function () {
+        const errorAsync:any = function () {
             throw new Error('error!');
         };
         spyOn(component, 'twitterData').and.returnValue(of(errorAsync));

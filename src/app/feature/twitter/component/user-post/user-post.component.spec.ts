@@ -7,6 +7,7 @@ import { TwitterServiceStub } from '../main/main.service.mock';
 import { TwitterService } from '../../service/twitter.service';
 
 import { Logger } from '../../../../core/logger.service';
+import { TpostTweet } from '../../service/twitter-feed.interface';
 
 class MockLoggerService {
     log() {
@@ -39,15 +40,16 @@ describe('UserPostComponent', () => {
     });
 
     it('ngOnit() should called logger', () => {
+        spyOn(component.logger, 'debug');
         component.ngOnInit();
-        expect(component.logger).toBeTruthy();
+        expect(component.logger.debug).toHaveBeenCalled();
     });
 
     it('postTweet() should called postedTweet method with mockresult', () => {
-        component.tweet = 'test';
+        const reqObj: TpostTweet = { status: "test"};
         component.postTweet();
         component.twitterService
-            .postUserTweet(component.tweet)
+            .postUserTweet(reqObj)
             .subscribe((res) => {
                 expect(component.postedTweet).toHaveBeenCalledWith(res);
             });

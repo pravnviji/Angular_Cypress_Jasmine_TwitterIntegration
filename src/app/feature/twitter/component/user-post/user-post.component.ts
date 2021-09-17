@@ -35,7 +35,7 @@ export class UserPostComponent implements OnInit {
         this.twitterService.postUserTweet(reqObj).subscribe(this.postedTweet);
     }
 
-    postedTweet = (result: any) => {
+    postedTweet = <T>(result: T): void => {
       this.logger.debug(this.fileName, `postedTweet`);
       this.logger.debug(this.fileName, result);
       this.showModal(result);
@@ -49,4 +49,5 @@ export class UserPostComponent implements OnInit {
             alert(` Sorry Content already posted | Server configuration is not correct`);
         }
     }
+    
 }
