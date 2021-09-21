@@ -1,10 +1,10 @@
 #Coding Challenge
 
 #TechUsed
-    - Angular
-    - Nodejs
-    - Unit-testing (Jasmine)
-    - Automation (Cypress.io)
+- Angular
+- Nodejs
+- Unit-testing (Jasmine)
+- Automation (Cypress.io)
 
 ## Instructions:
 Implement a `Twitter card` by using the Twitter API.
