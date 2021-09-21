@@ -1,0 +1,19 @@
+{
+    "baseUrl": "http://localhost:4200",
+    "viewportWidth": 1000,
+    "viewportHeight": 1280,
+    "ignoreTestFiles": "*.js",
+    "video": false,
+    "retries": {
+      "runMode": 2,
+      "openMode": 1
+    },
+    "env": {
+      "apiUrl": "http://localhost:3000",
+      "mobileViewportWidthBreakpoint": 414,
+      "coverage": false,
+      "codeCoverage": {
+        "url": "http://localhost:3001/__coverage__"
+      }
+    }
+  }

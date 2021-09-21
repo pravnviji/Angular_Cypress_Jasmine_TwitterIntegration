@@ -1,0 +1,54 @@
+{
+  "data": {
+    "title": "Unauthorized",
+    "detail": "Unauthorized",
+    "type": "about:blank",
+    "status": 401
+  },
+  "resp": {
+    "statusCode": 401,
+    "headers": {
+      "date": "Mon, 20 Sep 2021 08:44:48 UTC",
+      "server": "tsa_k",
+      "set-cookie": [
+        "personalization_id=\"v1_/bL1bQaaziVyVNXHFB0R0A==\"; Max-Age=63072000; Expires=Wed, 20 Sep 2023 08:44:48 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None",
+        "guest_id=v1%3A163212748851847779; Max-Age=63072000; Expires=Wed, 20 Sep 2023 08:44:48 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
+      ],
+      "api-version": "2.24",
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-cache, no-store, max-age=0",
+      "content-length": "89",
+      "x-frame-options": "SAMEORIGIN",
+      "content-encoding": "gzip",
+      "x-xss-protection": "0",
+      "content-disposition": "attachment; filename=json.json",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=631138519",
+      "x-connection-hash": "c6a8323139c571d35c86db9cb86d194ff12e6c92a559d004eb256ba36f12ef43",
+      "connection": "close"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "api.twitter.com",
+        "port": 443,
+        "hostname": "api.twitter.com",
+        "hash": null,
+        "search": "?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
+        "query": "user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
+        "pathname": "/2/users/by/username/aboutyou_tech",
+        "path": "/2/users/by/username/aboutyou_tech?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
+        "href": "https://api.twitter.com/2/users/by/username/aboutyou_tech?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld"
+      },
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "twit-client",
+        "accept-encoding": "gzip, deflate",
+        "Authorization": "OAuth oauth_consumer_key=\"%7B%7BAPI%20KEY%7D%7D\",oauth_nonce=\"12f6b900aaf54f6d8b4551290e5962df\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1632127487\",oauth_token=\"%7B%7BACCESS%20TOKEN%7D%7D\",oauth_version=\"1.0\",oauth_signature=\"oL44oc6hxRAqRKgdKoJrJ%2FiT%2BKM%3D\""
+      }
+    }
+  }
+}

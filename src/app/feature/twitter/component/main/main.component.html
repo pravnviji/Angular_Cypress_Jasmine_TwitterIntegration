@@ -18,7 +18,7 @@
 </ng-template>
 
 <ng-template #emptyTemplate>
-	<div class="app-main__empty-container">
+	<div class="app-main__empty-container" data-cy="app-main__empty-container">
 		Please configure the server settings to access Twitter API. Update below parameter in Server.js
 		<ol>
 			<li>consumer_key</li>
@@ -27,5 +27,8 @@
 			<li>access_token_secret</li>
 			<li>bearer_token</li>
 		</ol>
+
+		<input type="text" data-cy="app-main-txt"/>
+		<button data-cy="app-main-btn" (click)="onTestClick()">Submit</button>
 	</div>
 </ng-template>

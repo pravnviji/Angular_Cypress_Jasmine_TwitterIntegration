@@ -51,6 +51,10 @@ export class MainComponent implements OnInit, OnDestroy {
         this.logger.debug(this.fileName, `onGetFeedError`);
         this.logger.debug(this.fileName, error);
     }
+
+    onTestClick = () => {
+        alert('Hi');
+    }
 }
 
 // tslint:disable-next-line: typedef

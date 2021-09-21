@@ -1,0 +1,9 @@
+{
+  "message": "Invalid or expired token.",
+  "code": 89,
+  "allErrors": [{ "code": 89, "message": "Invalid or expired token." }],
+  "twitterReply": {
+    "errors": [{ "code": 89, "message": "Invalid or expired token." }]
+  },
+  "statusCode": 401
+}
