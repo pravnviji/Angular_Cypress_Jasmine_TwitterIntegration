@@ -1,8 +1,10 @@
-#About You Coding Challenge
-This is a best practices challenge, it is surely not about time but about your knowledge. Challenge yourself by using dry and solid Principles, mapper, rxjs, Interfaces vs Classes et cetera.
-Your Task is to create a sample application in Angular by using the [Twitter API](https://developer.Twitter.com/). 
+#Coding Challenge
 
-Show a single status card with implementation of all side features like profile image, hashtag linking and many more. Use what you think you need (components, services, directives, routing, forms...). Ensure yourself to use common principles and your best practices during development cycle. Feel free to write Unit or E2E tests, which is a plus on your side.
+#TechUsed
+    - Angular
+    - Nodejs
+    - Unit-testing (Jasmine)
+    - Automation (Cypress.io)
 
 ## Instructions:
 Implement a `Twitter card` by using the Twitter API.
