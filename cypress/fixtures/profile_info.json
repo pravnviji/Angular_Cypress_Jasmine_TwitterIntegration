@@ -1,0 +1,86 @@
+{
+  "data": {
+    "data": {
+      "pinned_tweet_id": "1020240997740175360",
+      "username": "aboutyou_tech",
+      "url": "https://t.co/JceDLKecDZ",
+      "id": "851654519054364672",
+      "created_at": "2017-04-11T04:33:55.000Z",
+      "name": "ABOUT YOU TECH",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1128599974906871808/c92l87A7_normal.png",
+      "verified": false,
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "start": 0,
+              "end": 23,
+              "url": "https://t.co/JceDLKecDZ",
+              "expanded_url": "https://corporate.aboutyou.de/de/jobs",
+              "display_url": "corporate.aboutyou.de/de/jobs"
+            }
+          ]
+        }
+      },
+      "location": "Hamburg, Germany",
+      "protected": false,
+      "description": "Handling more than 750 million API calls/day 🚀\nCutting edge technologies, fashion trends & innovative IT-products like the ABOUT YOU Commerce Suite ☁️",
+      "public_metrics": {
+        "followers_count": 863,
+        "following_count": 123,
+        "tweet_count": 392,
+        "listed_count": 7
+      }
+    }
+  },
+  "resp": {
+    "statusCode": 200,
+    "headers": {
+      "date": "Wed, 22 Sep 2021 01:54:38 UTC",
+      "server": "tsa_k",
+      "set-cookie": [
+        "personalization_id=\"v1_Yu+XB9fWbzVY9+yANl2Uow==\"; Max-Age=63072000; Expires=Fri, 22 Sep 2023 01:54:38 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None",
+        "guest_id=v1%3A163227567891212443; Max-Age=63072000; Expires=Fri, 22 Sep 2023 01:54:38 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
+      ],
+      "api-version": "2.24",
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-cache, no-store, max-age=0",
+      "content-length": "546",
+      "x-access-level": "read",
+      "x-frame-options": "SAMEORIGIN",
+      "content-encoding": "gzip",
+      "x-xss-protection": "0",
+      "x-rate-limit-limit": "900",
+      "x-rate-limit-reset": "1632276563",
+      "content-disposition": "attachment; filename=json.json",
+      "x-content-type-options": "nosniff",
+      "x-rate-limit-remaining": "891",
+      "strict-transport-security": "max-age=631138519",
+      "x-connection-hash": "02a0cf6b6545aa7d2b5f0283602f15cefaf6b9151aa50c53d4ecf717bfe157e8",
+      "connection": "close"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "api.twitter.com",
+        "port": 443,
+        "hostname": "api.twitter.com",
+        "hash": null,
+        "search": "?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
+        "query": "user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
+        "pathname": "/2/users/by/username/aboutyou_tech",
+        "path": "/2/users/by/username/aboutyou_tech?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld",
+        "href": "https://api.twitter.com/2/users/by/username/aboutyou_tech?user.fields=created_at,description,entities,id,location,name,pinned_tweet_id,profile_image_url,protected,public_metrics,url,username,verified,withheld"
+      },
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "twit-client",
+        "accept-encoding": "gzip, deflate",
+        "Authorization": "OAuth oauth_consumer_key=\"d5jQppf3e4IHKR0KrhNA3c2aH\",oauth_nonce=\"a145397ccae240bb80a780780a7550a3\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1632275678\",oauth_token=\"55864924-xnAJa0ZK62UoQmw3BU2IdMh4Sx7nBy3zYEG1OcbCY\",oauth_version=\"1.0\",oauth_signature=\"WinB%2ByYkkFG0Rq2PpXiwBPDx7fE%3D\""
+      }
+    }
+  }
+}

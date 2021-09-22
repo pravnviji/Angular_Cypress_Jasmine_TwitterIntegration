@@ -1,0 +1,9 @@
+{
+  "message": "Bad Authentication data.",
+  "code": 215,
+  "allErrors": [{ "code": 215, "message": "Bad Authentication data." }],
+  "twitterReply": {
+    "errors": [{ "code": 215, "message": "Bad Authentication data." }]
+  },
+  "statusCode": 400
+}

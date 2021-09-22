@@ -1,0 +1,1442 @@
+{
+  "data": [
+    {
+      "created_at": "Wed Sep 22 01:02:00 +0000 2021",
+      "id": 1440481472855494700,
+      "id_str": "1440481472855494657",
+      "full_text": "As we pursue diplomacy across the board, the U.S. will champion the democratic values that go to the very heart of who we are as a nation and a people—freedom, equality, opportunity, and a belief in the universal rights of all people. \n\nIt's stamped into our DNA as a nation.",
+      "truncated": false,
+      "display_text_range": [0, 275],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 939091,
+        "id_str": "939091",
+        "name": "Joe Biden",
+        "screen_name": "JoeBiden",
+        "location": "Washington, DC",
+        "description": "Husband to @DrBiden, proud father and grandfather. Ready to build back better for all Americans. Official account is @POTUS.",
+        "url": "https://t.co/UClrPuJpyZ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UClrPuJpyZ",
+                "expanded_url": "http://joebiden.com",
+                "display_url": "joebiden.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 31326255,
+        "friends_count": 47,
+        "listed_count": 37172,
+        "created_at": "Sun Mar 11 17:51:24 +0000 2007",
+        "favourites_count": 20,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 7555,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "565959",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1308769664240160770/AfgzWVE7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1308769664240160770/AfgzWVE7_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/939091/1626295479",
+        "profile_link_color": "233F94",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EBEBFF",
+        "profile_text_color": "323232",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 632,
+      "favorite_count": 4170,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 23:12:00 +0000 2021",
+      "id": 1440453789090152400,
+      "id_str": "1440453789090152458",
+      "full_text": "For the first time in 20 years, the United States is not at war. We’ve turned the page.\n\nAll the unmatched strength, energy, commitment, will, and resources of our nation are now fully and squarely focused on what’s ahead of us, not what was behind. https://t.co/4n3HlIiUlY",
+      "truncated": false,
+      "display_text_range": [0, 249],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 1440372516942336000,
+            "id_str": "1440372516942336004",
+            "indices": [250, 273],
+            "media_url": "http://pbs.twimg.com/media/E_07mZEVUAUrCkl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/E_07mZEVUAUrCkl.jpg",
+            "url": "https://t.co/4n3HlIiUlY",
+            "display_url": "pic.twitter.com/4n3HlIiUlY",
+            "expanded_url": "https://twitter.com/JoeBiden/status/1440453789090152458/video/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "small": { "w": 680, "h": 680, "resize": "fit" },
+              "medium": { "w": 1080, "h": 1080, "resize": "fit" },
+              "large": { "w": 1080, "h": 1080, "resize": "fit" }
+            },
+            "source_user_id": 14377605,
+            "source_user_id_str": "14377605"
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1440372516942336000,
+            "id_str": "1440372516942336004",
+            "indices": [250, 273],
+            "media_url": "http://pbs.twimg.com/media/E_07mZEVUAUrCkl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/E_07mZEVUAUrCkl.jpg",
+            "url": "https://t.co/4n3HlIiUlY",
+            "display_url": "pic.twitter.com/4n3HlIiUlY",
+            "expanded_url": "https://twitter.com/JoeBiden/status/1440453789090152458/video/1",
+            "type": "video",
+            "sizes": {
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "small": { "w": 680, "h": 680, "resize": "fit" },
+              "medium": { "w": 1080, "h": 1080, "resize": "fit" },
+              "large": { "w": 1080, "h": 1080, "resize": "fit" }
+            },
+            "source_user_id": 14377605,
+            "source_user_id_str": "14377605",
+            "video_info": {
+              "aspect_ratio": [1, 1],
+              "duration_millis": 54880,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/1440372516942336004/pl/9JlngnXakCxqRDuc.m3u8?tag=14"
+                },
+                {
+                  "bitrate": 432000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1440372516942336004/vid/320x320/y8kdZLq_M8qpkQgX.mp4?tag=14"
+                },
+                {
+                  "bitrate": 1280000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1440372516942336004/vid/720x720/3VwT32m8GnI1V3J8.mp4?tag=14"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/1440372516942336004/vid/540x540/sX8laHI8ClsWof06.mp4?tag=14"
+                }
+              ]
+            },
+            "additional_media_info": {
+              "title": "",
+              "description": "",
+              "embeddable": true,
+              "monetizable": false,
+              "source_user": {
+                "id": 14377605,
+                "id_str": "14377605",
+                "name": "The Democrats",
+                "screen_name": "TheDemocrats",
+                "location": "Washington, D.C.",
+                "description": "The official Twitter account of the Democratic National Committee. Join our team to get the latest info on Democratic news and issues.",
+                "url": "https://t.co/uyjMGErQPD",
+                "entities": {
+                  "url": {
+                    "urls": [
+                      {
+                        "url": "https://t.co/uyjMGErQPD",
+                        "expanded_url": "http://democrats.org",
+                        "display_url": "democrats.org",
+                        "indices": [0, 23]
+                      }
+                    ]
+                  },
+                  "description": { "urls": [] }
+                },
+                "protected": false,
+                "followers_count": 2152252,
+                "friends_count": 1747,
+                "listed_count": 12324,
+                "created_at": "Sun Apr 13 20:23:13 +0000 2008",
+                "favourites_count": 1272,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 35447,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "00AEF3",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1389238488231522312/JmoitcsW_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1389238488231522312/JmoitcsW_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14377605/1625683327",
+                "profile_link_color": "016FD0",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "EFF0F1",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none",
+                "withheld_in_countries": []
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 939091,
+        "id_str": "939091",
+        "name": "Joe Biden",
+        "screen_name": "JoeBiden",
+        "location": "Washington, DC",
+        "description": "Husband to @DrBiden, proud father and grandfather. Ready to build back better for all Americans. Official account is @POTUS.",
+        "url": "https://t.co/UClrPuJpyZ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UClrPuJpyZ",
+                "expanded_url": "http://joebiden.com",
+                "display_url": "joebiden.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 31326255,
+        "friends_count": 47,
+        "listed_count": 37172,
+        "created_at": "Sun Mar 11 17:51:24 +0000 2007",
+        "favourites_count": 20,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 7555,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "565959",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1308769664240160770/AfgzWVE7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1308769664240160770/AfgzWVE7_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/939091/1626295479",
+        "profile_link_color": "233F94",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EBEBFF",
+        "profile_text_color": "323232",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1451,
+      "favorite_count": 9569,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 23:00:21 +0000 2021",
+      "id": 1440450857082916900,
+      "id_str": "1440450857082916875",
+      "full_text": "Time for action: A recipe for success with 5 key ingredients https://t.co/6wzLTdxe2n - @Nestle #SDIS21 https://t.co/cNNbZK5OD5",
+      "truncated": false,
+      "display_text_range": [0, 102],
+      "entities": {
+        "hashtags": [{ "text": "SDIS21", "indices": [95, 102] }],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Nestle",
+            "name": "Nestlé",
+            "id": 23085995,
+            "id_str": "23085995",
+            "indices": [87, 94]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/6wzLTdxe2n",
+            "expanded_url": "https://wef.ch/3EFYgEv",
+            "display_url": "wef.ch/3EFYgEv",
+            "indices": [61, 84]
+          }
+        ],
+        "media": [
+          {
+            "id": 1440450853001851000,
+            "id_str": "1440450853001850882",
+            "indices": [103, 126],
+            "media_url": "http://pbs.twimg.com/media/E_2Ca0GVcAI4RaS.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/E_2Ca0GVcAI4RaS.jpg",
+            "url": "https://t.co/cNNbZK5OD5",
+            "display_url": "pic.twitter.com/cNNbZK5OD5",
+            "expanded_url": "https://twitter.com/wef/status/1440450857082916875/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": { "w": 485, "h": 273, "resize": "fit" },
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "medium": { "w": 485, "h": 273, "resize": "fit" },
+              "large": { "w": 485, "h": 273, "resize": "fit" }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1440450853001851000,
+            "id_str": "1440450853001850882",
+            "indices": [103, 126],
+            "media_url": "http://pbs.twimg.com/media/E_2Ca0GVcAI4RaS.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/E_2Ca0GVcAI4RaS.jpg",
+            "url": "https://t.co/cNNbZK5OD5",
+            "display_url": "pic.twitter.com/cNNbZK5OD5",
+            "expanded_url": "https://twitter.com/wef/status/1440450857082916875/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": { "w": 485, "h": 273, "resize": "fit" },
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "medium": { "w": 485, "h": 273, "resize": "fit" },
+              "large": { "w": 485, "h": 273, "resize": "fit" }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 5120691,
+        "id_str": "5120691",
+        "name": "World Economic Forum",
+        "screen_name": "wef",
+        "location": "Geneva, Switzerland",
+        "description": "The international organization for public private cooperation. #wef21",
+        "url": "https://t.co/QP0DqZaM6z",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/QP0DqZaM6z",
+                "expanded_url": "https://www.weforum.org/",
+                "display_url": "weforum.org",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 4027210,
+        "friends_count": 565,
+        "listed_count": 27051,
+        "created_at": "Wed Apr 18 14:00:19 +0000 2007",
+        "favourites_count": 1782,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 166461,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FCFCFC",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/565498192171507712/r2Hb2gvX_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/565498192171507712/r2Hb2gvX_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/5120691/1547196121",
+        "profile_link_color": "419FCF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "7AC3EE",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 15,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 22:54:01 +0000 2021",
+      "id": 1440449262475636700,
+      "id_str": "1440449262475636747",
+      "full_text": "Can adults listen…asking for a friend…?\nhttps://t.co/qJJLZ0j5Ue",
+      "truncated": false,
+      "display_text_range": [0, 63],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/qJJLZ0j5Ue",
+            "expanded_url": "https://mashable.com/article/educational-podcasts-children-back-to-school",
+            "display_url": "mashable.com/article/educat…",
+            "indices": [40, 63]
+          }
+        ]
+      },
+      "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1394399438,
+        "id_str": "1394399438",
+        "name": "John Legere",
+        "screen_name": "JohnLegere",
+        "location": "Florida/New York City",
+        "description": "used to be CEO @tmobile ... I am Batman, Love to run, love NYC, opinions are mine and obnoxious Stay tuned for next act 🙂 https://t.co/9nbn10pmsE",
+        "url": "https://t.co/uRPljfcQtG",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/uRPljfcQtG",
+                "expanded_url": "http://Instagram.com/johnlegere",
+                "display_url": "Instagram.com/johnlegere",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/9nbn10pmsE",
+                "expanded_url": "https://bitclout.com/u/JohnLegere",
+                "display_url": "bitclout.com/u/JohnLegere",
+                "indices": [122, 145]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 6041746,
+        "friends_count": 322,
+        "listed_count": 4569,
+        "created_at": "Wed May 01 11:13:13 +0000 2013",
+        "favourites_count": 160057,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 58326,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1274537455094509568/yihYjHtr_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1274537455094509568/yihYjHtr_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1394399438/1592708495",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 35,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 22:19:36 +0000 2021",
+      "id": 1440440604744249300,
+      "id_str": "1440440604744249348",
+      "full_text": "There are three things that can be done in the coming months to bring an end to the acute phase of the pandemic and set the world on a different timeline in preparation for the next. https://t.co/41ImCLHpgt",
+      "truncated": false,
+      "display_text_range": [0, 206],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/41ImCLHpgt",
+            "expanded_url": "https://gatesnot.es/3kulXI8",
+            "display_url": "gatesnot.es/3kulXI8",
+            "indices": [183, 206]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 50393960,
+        "id_str": "50393960",
+        "name": "Bill Gates",
+        "screen_name": "BillGates",
+        "location": "Seattle, WA",
+        "description": "Sharing things I'm learning through my foundation work and other interests.",
+        "url": "https://t.co/UkvHzxUzmH",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UkvHzxUzmH",
+                "expanded_url": "https://gatesnot.es/blog",
+                "display_url": "gatesnot.es/blog",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 55535781,
+        "friends_count": 318,
+        "listed_count": 121248,
+        "created_at": "Wed Jun 24 18:44:10 +0000 2009",
+        "favourites_count": 177,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 3632,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/50393960/1626063534",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 175,
+      "favorite_count": 990,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 21:33:01 +0000 2021",
+      "id": 1440428877822660600,
+      "id_str": "1440428877822660608",
+      "full_text": "As we recover from this crisis, we must put in place a long-term plan to increase opportunities with better jobs and higher wages; a plan that will lower the everyday costs that strain our budgets and our nation’s families.\n\nOur Build Back Better Agenda will get it done.",
+      "truncated": false,
+      "display_text_range": [0, 271],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 939091,
+        "id_str": "939091",
+        "name": "Joe Biden",
+        "screen_name": "JoeBiden",
+        "location": "Washington, DC",
+        "description": "Husband to @DrBiden, proud father and grandfather. Ready to build back better for all Americans. Official account is @POTUS.",
+        "url": "https://t.co/UClrPuJpyZ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UClrPuJpyZ",
+                "expanded_url": "http://joebiden.com",
+                "display_url": "joebiden.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 31326255,
+        "friends_count": 47,
+        "listed_count": 37172,
+        "created_at": "Sun Mar 11 17:51:24 +0000 2007",
+        "favourites_count": 20,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": true,
+        "statuses_count": 7555,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "565959",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1308769664240160770/AfgzWVE7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1308769664240160770/AfgzWVE7_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/939091/1626295479",
+        "profile_link_color": "233F94",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EBEBFF",
+        "profile_text_color": "323232",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1124,
+      "favorite_count": 7674,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 21:32:52 +0000 2021",
+      "id": 1440428843324432400,
+      "id_str": "1440428843324432394",
+      "full_text": "Explore our new Digital Essentials Guide and lessons that are now available in Spanish 👇 https://t.co/ACSte9rzeY",
+      "truncated": false,
+      "display_text_range": [0, 88],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/ACSte9rzeY",
+            "expanded_url": "https://twitter.com/GoogleSmallBiz/status/1440379050631958534",
+            "display_url": "twitter.com/GoogleSmallBiz…",
+            "indices": [89, 112]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 20536157,
+        "id_str": "20536157",
+        "name": "Google",
+        "screen_name": "Google",
+        "location": "Mountain View, CA",
+        "description": "#HeyGoogle",
+        "url": "https://t.co/vXgfrAznPl",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/vXgfrAznPl",
+                "expanded_url": "https://about.google/",
+                "display_url": "about.google",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 23478780,
+        "friends_count": 295,
+        "listed_count": 93593,
+        "created_at": "Tue Feb 10 19:14:39 +0000 2009",
+        "favourites_count": 3180,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 142585,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1343584679664873479/Xos3xQfk_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/20536157/1631887440",
+        "profile_link_color": "0000CC",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EBEFF9",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1440379050631958500,
+      "quoted_status_id_str": "1440379050631958534",
+      "quoted_status_permalink": {
+        "url": "https://t.co/ACSte9rzeY",
+        "expanded": "https://twitter.com/GoogleSmallBiz/status/1440379050631958534",
+        "display": "twitter.com/GoogleSmallBiz…"
+      },
+      "quoted_status": {
+        "created_at": "Tue Sep 21 18:15:01 +0000 2021",
+        "id": 1440379050631958500,
+        "id_str": "1440379050631958534",
+        "full_text": "Explora nuestra 🆕 guía de conceptos básicos para tener éxito en el ambiente digital y las lecciones que ahora están disponibles en español para nuestras empresas pequeñas de propietarios Latinos ↓  #MesDeLaHerenciaHispana https://t.co/gq9buIMzsD",
+        "truncated": false,
+        "display_text_range": [0, 245],
+        "entities": {
+          "hashtags": [
+            { "text": "MesDeLaHerenciaHispana", "indices": [198, 221] }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/gq9buIMzsD",
+              "expanded_url": "https://goo.gle/3hT2M9g",
+              "display_url": "goo.gle/3hT2M9g",
+              "indices": [222, 245]
+            }
+          ]
+        },
+        "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 175102903,
+          "id_str": "175102903",
+          "name": "Google Small Business",
+          "screen_name": "GoogleSmallBiz",
+          "location": "",
+          "description": "We provide #smallbiz owners with tips, tools & resources to grow their businesses online. For support with reviews & your Business Profile, contact @GoogleMyBiz",
+          "url": "https://t.co/NztVdP24hz",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/NztVdP24hz",
+                  "expanded_url": "http://google.com/smallbusiness",
+                  "display_url": "google.com/smallbusiness",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 174644,
+          "friends_count": 360,
+          "listed_count": 2658,
+          "created_at": "Thu Aug 05 17:03:02 +0000 2010",
+          "favourites_count": 4774,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": true,
+          "statuses_count": 7609,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/875749462957670400/T0lwiBK8_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/875749462957670400/T0lwiBK8_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/175102903/1625155272",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none",
+          "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 7,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "es"
+      },
+      "retweet_count": 17,
+      "favorite_count": 131,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 20:23:01 +0000 2021",
+      "id": 1440411262639165400,
+      "id_str": "1440411262639165441",
+      "full_text": "Number 13 is WILD!!\nhttps://t.co/PsGJBEMpVR",
+      "truncated": false,
+      "display_text_range": [0, 43],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/PsGJBEMpVR",
+            "expanded_url": "https://www.buzzfeed.com/asiawmclain/taxi-and-uber-drivers-are-sharing-secrets-people-told-them?origin=web-hf",
+            "display_url": "buzzfeed.com/asiawmclain/ta…",
+            "indices": [20, 43]
+          }
+        ]
+      },
+      "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1394399438,
+        "id_str": "1394399438",
+        "name": "John Legere",
+        "screen_name": "JohnLegere",
+        "location": "Florida/New York City",
+        "description": "used to be CEO @tmobile ... I am Batman, Love to run, love NYC, opinions are mine and obnoxious Stay tuned for next act 🙂 https://t.co/9nbn10pmsE",
+        "url": "https://t.co/uRPljfcQtG",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/uRPljfcQtG",
+                "expanded_url": "http://Instagram.com/johnlegere",
+                "display_url": "Instagram.com/johnlegere",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/9nbn10pmsE",
+                "expanded_url": "https://bitclout.com/u/JohnLegere",
+                "display_url": "bitclout.com/u/JohnLegere",
+                "indices": [122, 145]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 6041746,
+        "friends_count": 322,
+        "listed_count": 4569,
+        "created_at": "Wed May 01 11:13:13 +0000 2013",
+        "favourites_count": 160057,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 58326,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1274537455094509568/yihYjHtr_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1274537455094509568/yihYjHtr_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1394399438/1592708495",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 10,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 20:00:08 +0000 2021",
+      "id": 1440405503754920000,
+      "id_str": "1440405503754919945",
+      "full_text": "We need greenhouse gas emissions to fall 50% by 2030. \n\nSubmit your solution to protect people and the planet from climate change: https://t.co/PiEGznUO6X @WEFUpLink @GlobalShapers @JeanetteJoy https://t.co/Gda7zL0yfy",
+      "truncated": false,
+      "display_text_range": [0, 193],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "WEFUpLink",
+            "name": "UpLink",
+            "id": 1281518349747454000,
+            "id_str": "1281518349747453952",
+            "indices": [155, 165]
+          },
+          {
+            "screen_name": "GlobalShapers",
+            "name": "Global Shapers",
+            "id": 318887578,
+            "id_str": "318887578",
+            "indices": [166, 180]
+          },
+          {
+            "screen_name": "JeanetteJoy",
+            "name": "Jeanette JOY Fisher ☮️ Peace + Love = Joy!",
+            "id": 11294522,
+            "id_str": "11294522",
+            "indices": [181, 193]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/PiEGznUO6X",
+            "expanded_url": "https://bit.ly/3zrjN0a",
+            "display_url": "bit.ly/3zrjN0a",
+            "indices": [131, 154]
+          }
+        ],
+        "media": [
+          {
+            "id": 1440404276363153400,
+            "id_str": "1440404276363153408",
+            "indices": [194, 217],
+            "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1440404276363153408/pu/img/AFc6nFzUZrT5am5X.jpg",
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1440404276363153408/pu/img/AFc6nFzUZrT5am5X.jpg",
+            "url": "https://t.co/Gda7zL0yfy",
+            "display_url": "pic.twitter.com/Gda7zL0yfy",
+            "expanded_url": "https://twitter.com/wef/status/1440405503754919945/video/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "small": { "w": 680, "h": 680, "resize": "fit" },
+              "medium": { "w": 1080, "h": 1080, "resize": "fit" },
+              "large": { "w": 1080, "h": 1080, "resize": "fit" }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1440404276363153400,
+            "id_str": "1440404276363153408",
+            "indices": [194, 217],
+            "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1440404276363153408/pu/img/AFc6nFzUZrT5am5X.jpg",
+            "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1440404276363153408/pu/img/AFc6nFzUZrT5am5X.jpg",
+            "url": "https://t.co/Gda7zL0yfy",
+            "display_url": "pic.twitter.com/Gda7zL0yfy",
+            "expanded_url": "https://twitter.com/wef/status/1440405503754919945/video/1",
+            "type": "video",
+            "sizes": {
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "small": { "w": 680, "h": 680, "resize": "fit" },
+              "medium": { "w": 1080, "h": 1080, "resize": "fit" },
+              "large": { "w": 1080, "h": 1080, "resize": "fit" }
+            },
+            "video_info": {
+              "aspect_ratio": [1, 1],
+              "duration_millis": 101541,
+              "variants": [
+                {
+                  "bitrate": 432000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1440404276363153408/pu/vid/320x320/yyL0cz3s8kGy1CxB.mp4?tag=12"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1440404276363153408/pu/vid/540x540/zcbA4owmCRq8MDg6.mp4?tag=12"
+                },
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/ext_tw_video/1440404276363153408/pu/pl/oss9wxky4khq_48G.m3u8?tag=12&container=fmp4"
+                },
+                {
+                  "bitrate": 1280000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/ext_tw_video/1440404276363153408/pu/vid/720x720/ZR6HKq2D2UTP-ZBs.mp4?tag=12"
+                }
+              ]
+            },
+            "additional_media_info": { "monetizable": false }
+          }
+        ]
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 5120691,
+        "id_str": "5120691",
+        "name": "World Economic Forum",
+        "screen_name": "wef",
+        "location": "Geneva, Switzerland",
+        "description": "The international organization for public private cooperation. #wef21",
+        "url": "https://t.co/QP0DqZaM6z",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/QP0DqZaM6z",
+                "expanded_url": "https://www.weforum.org/",
+                "display_url": "weforum.org",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 4027210,
+        "friends_count": 565,
+        "listed_count": 27051,
+        "created_at": "Wed Apr 18 14:00:19 +0000 2007",
+        "favourites_count": 1782,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 166461,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FCFCFC",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/565498192171507712/r2Hb2gvX_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/565498192171507712/r2Hb2gvX_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/5120691/1547196121",
+        "profile_link_color": "419FCF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "7AC3EE",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 31,
+      "favorite_count": 62,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Sep 21 19:40:05 +0000 2021",
+      "id": 1440400457835311000,
+      "id_str": "1440400457835311104",
+      "full_text": "These 3 lessons from @LKGibby of @Nestle ensure future-focused leaders don't ignore the present https://t.co/xQVn7jdqLw https://t.co/PIXE5uKPfd",
+      "truncated": false,
+      "display_text_range": [0, 119],
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "LKGibby",
+            "name": "Lisa Gibby",
+            "id": 24995632,
+            "id_str": "24995632",
+            "indices": [21, 29]
+          },
+          {
+            "screen_name": "Nestle",
+            "name": "Nestlé",
+            "id": 23085995,
+            "id_str": "23085995",
+            "indices": [33, 40]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/xQVn7jdqLw",
+            "expanded_url": "https://wef.ch/3m2EpqX",
+            "display_url": "wef.ch/3m2EpqX",
+            "indices": [96, 119]
+          }
+        ],
+        "media": [
+          {
+            "id": 1440400453833879600,
+            "id_str": "1440400453833879553",
+            "indices": [120, 143],
+            "media_url": "http://pbs.twimg.com/media/E_1UlMkUcAEavED.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/E_1UlMkUcAEavED.jpg",
+            "url": "https://t.co/PIXE5uKPfd",
+            "display_url": "pic.twitter.com/PIXE5uKPfd",
+            "expanded_url": "https://twitter.com/wef/status/1440400457835311104/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": { "w": 485, "h": 323, "resize": "fit" },
+              "medium": { "w": 485, "h": 323, "resize": "fit" },
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "large": { "w": 485, "h": 323, "resize": "fit" }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1440400453833879600,
+            "id_str": "1440400453833879553",
+            "indices": [120, 143],
+            "media_url": "http://pbs.twimg.com/media/E_1UlMkUcAEavED.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/E_1UlMkUcAEavED.jpg",
+            "url": "https://t.co/PIXE5uKPfd",
+            "display_url": "pic.twitter.com/PIXE5uKPfd",
+            "expanded_url": "https://twitter.com/wef/status/1440400457835311104/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": { "w": 485, "h": 323, "resize": "fit" },
+              "medium": { "w": 485, "h": 323, "resize": "fit" },
+              "thumb": { "w": 150, "h": 150, "resize": "crop" },
+              "large": { "w": 485, "h": 323, "resize": "fit" }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 5120691,
+        "id_str": "5120691",
+        "name": "World Economic Forum",
+        "screen_name": "wef",
+        "location": "Geneva, Switzerland",
+        "description": "The international organization for public private cooperation. #wef21",
+        "url": "https://t.co/QP0DqZaM6z",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/QP0DqZaM6z",
+                "expanded_url": "https://www.weforum.org/",
+                "display_url": "weforum.org",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 4027210,
+        "friends_count": 565,
+        "listed_count": 27051,
+        "created_at": "Wed Apr 18 14:00:19 +0000 2007",
+        "favourites_count": 1782,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 166461,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FCFCFC",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/565498192171507712/r2Hb2gvX_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/565498192171507712/r2Hb2gvX_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/5120691/1547196121",
+        "profile_link_color": "419FCF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "7AC3EE",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": []
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 15,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    }
+  ],
+  "resp": {
+    "statusCode": 200,
+    "headers": {
+      "date": "Wed, 22 Sep 2021 01:54:39 GMT",
+      "pragma": "no-cache",
+      "server": "tsa_k",
+      "status": "200 OK",
+      "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+      "set-cookie": [
+        "personalization_id=\"v1_U7ICyrnb6KV0TYFhvrtD2g==\"; Max-Age=63072000; Expires=Fri, 22 Sep 2023 01:54:39 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None",
+        "lang=en; Path=/",
+        "guest_id=v1%3A163227567902791763; Max-Age=63072000; Expires=Fri, 22 Sep 2023 01:54:39 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None"
+      ],
+      "content-type": "application/json;charset=utf-8",
+      "cache-control": "no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+      "last-modified": "Wed, 22 Sep 2021 01:54:39 GMT",
+      "x-transaction": "0fb2b3d7cc2cf554",
+      "content-length": "6099",
+      "x-access-level": "read",
+      "x-frame-options": "SAMEORIGIN",
+      "content-encoding": "gzip",
+      "x-xss-protection": "0",
+      "x-rate-limit-limit": "15",
+      "x-rate-limit-reset": "1632276563",
+      "content-disposition": "attachment; filename=json.json",
+      "x-content-type-options": "nosniff",
+      "x-rate-limit-remaining": "6",
+      "x-twitter-response-tags": "BouncerCompliant",
+      "strict-transport-security": "max-age=631138519",
+      "x-connection-hash": "52486381b385d6778ca42d7c44984f394468f87d9b113f203ff63bdf51e4e3ee",
+      "connection": "close"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "api.twitter.com",
+        "port": 443,
+        "hostname": "api.twitter.com",
+        "hash": null,
+        "search": "?tweet_mode=extended&count=10&screen_name=aboutyou_tech",
+        "query": "tweet_mode=extended&count=10&screen_name=aboutyou_tech",
+        "pathname": "/1.1/statuses/home_timeline.json",
+        "path": "/1.1/statuses/home_timeline.json?tweet_mode=extended&count=10&screen_name=aboutyou_tech",
+        "href": "https://api.twitter.com/1.1/statuses/home_timeline.json?tweet_mode=extended&count=10&screen_name=aboutyou_tech"
+      },
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "twit-client",
+        "Content-type": "application/json",
+        "accept-encoding": "gzip, deflate",
+        "Authorization": "OAuth oauth_consumer_key=\"d5jQppf3e4IHKR0KrhNA3c2aH\",oauth_nonce=\"ab4f27555b8b499b924b924eee0b0795\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1632275678\",oauth_token=\"55864924-xnAJa0ZK62UoQmw3BU2IdMh4Sx7nBy3zYEG1OcbCY\",oauth_version=\"1.0\",oauth_signature=\"MXtm2MLJrH5SCpHRi3yuYVRcS0M%3D\""
+      }
+    }
+  }
+}

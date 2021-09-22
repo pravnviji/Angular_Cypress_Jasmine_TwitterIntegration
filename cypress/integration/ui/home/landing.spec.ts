@@ -1,5 +1,16 @@
 /// <reference types="cypress" />
 
+enum ERR_MESSAGE {
+  BAD_AUTH = "Bad Authentication data.",
+  INVALID_TOKEN = "Invalid or expired token.",
+  UNAUTH = "Unauthorized"
+};
+
+enum ERR_CODES {
+  E_400 = 400,
+  E_401 = 401,
+};
+
 const apiURL = `${Cypress.env('apiUrl')}`;
 
 describe('Check Page Availability', () => {
@@ -13,17 +24,21 @@ describe('Application landing page - Invalid Token', () => {
   let invalidStatusCode = 0;
 
   beforeEach(() => {
+    cy.visit('/');
     /*
      Directly connect to server response
     cy.request(apiURL + "/profile_info").should((response) => {
       if (response.body.resp.statusCode === 401)
         invalidStatusCode = response.body.resp.statusCode;
     });*/
+   
+
   });
 
-  it('Should check for profile info by checking statusCode, data.title, data.detail', () => {
+  it('Should check for ProfileInfo info by checking statusCode, data.title, data.detail', () => {
+    cy.errProfileInfo();
     cy.log(`invalidStatusCode`, invalidStatusCode);
-    cy.profileInfo();
+
 
     cy.wait('@getErrProfileInfo').then((res) => {
       cy.log(`Inside the getErrProfileInfo `);
@@ -33,27 +48,15 @@ describe('Application landing page - Invalid Token', () => {
 
       invalidStatusCode = resObj.response.body.resp.statusCode;
 
-      expect(resObj.response.body.resp.statusCode).to.be.eql(401);
-      cy.wrap(resObj.response.body.data).should('have.property', 'title') 
-      .and('eq', 'Unauthorized');
-      cy.wrap(resObj.response.body.data).should('have.property', 'detail') 
-      .and('eq', 'Unauthorized');
+      expect(resObj.response.body.resp.statusCode).not.to.be.eql(200);
+
+      cy.wrap(resObj.response.body.data).should('have.property', 'title')
+        .and('eq', ERR_MESSAGE.UNAUTH);
+
+      cy.wrap(resObj.response.body.data).should('have.property', 'detail')
+        .and('eq', ERR_MESSAGE.UNAUTH);
     });
 
-
-    /* cy.fixture('err_profile_info').should((res) => {
-      if (res.resp.statusCode === 401) { return res.resp.statusCode; }
-    });
-    cy.fixture('err_profile_info').should((res) => {
-        cy.debug();
-      const resObj = JSON.parse(JSON.stringify(res));
-      cy.log('******* Printing Json ********',resObj)
-      cy.log('res body',resObj['resp']['statusCode'])
-      cy.debug()
-      if (res.resp.statusCode === 401) {
-        invalidStatusCode = res.resp.statusCode;
-      }
-    });*/
   });
 
   it('Should display the header', () => {
@@ -75,10 +78,38 @@ describe('Application landing page - Invalid Token', () => {
     }
   });
 
-  it('Should click the button', () => {
-    if (invalidStatusCode === 401) {
-      cy.get('[data-cy=app-main-btn]').should('have.text', 'Submit');
-      cy.get('[data-cy=app-main-btn]').click();
-    }
+  it('Should check for UserTimeLine info by checking statusCode & Message', () => {
+    cy.errUserTimeLine()
+    cy.log('** UserTimeLine **')
+    cy.wait('@getErrUserTimeLine')
+
+    //and('eq', ERR_CODES.E_401);
+    .its('response.body').should('have.property','statusCode').and('eq',ERR_CODES.E_401);
+
+    cy.get('[data-cy=app-main-txt]') // 2.
+    .type('Testing the Cypress');
+
+    cy.get('[data-cy=app-main-btn]') // 2.
+    .click().then(()=>{
+    cy.on('window:alert', (str) => {
+      expect(str).to.equal(`Hi`)
+    });
   });
-});
+   // cy.wrap('@getErrUserTimeLine').its('response.body.statusCode').should('have.property', 'message').and('satisfy',message);
+
+    /*cy.wait('@getErrUserTimeLine').then((res) => {
+      cy.log(`Inside the getErrProfileInfo `);
+      cy.log(`result object `, res);
+      const resObj = JSON.parse(JSON.stringify(res));
+      cy.log(`final object `, resObj);
+
+      expect(resObj.response.body.statusCode).not.to.be.eql(200);
+      const message = ERR_MESSAGE.INVALID_TOKEN ?? ERR_MESSAGE.BAD_AUTH;
+      cy.wrap(resObj.response.body).should('have.property', 'message').and('satisfy',message);
+    });*/
+  });
+
+  });
+
+
+ 

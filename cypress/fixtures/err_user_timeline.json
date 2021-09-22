@@ -1,5 +1,5 @@
 {
-  "message": "Invalid or expired token.",
+  "message": "Bad Authentication data.",
   "code": 89,
   "allErrors": [{ "code": 89, "message": "Invalid or expired token." }],
   "twitterReply": {
