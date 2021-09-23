@@ -31,7 +31,7 @@ describe('Application landing page - Invalid Token', () => {
       if (response.body.resp.statusCode === 401)
         invalidStatusCode = response.body.resp.statusCode;
     });*/
-   
+
 
   });
 
@@ -71,10 +71,12 @@ describe('Application landing page - Invalid Token', () => {
 
   it('Should show error screen and idetity the text, if token is invalid', () => {
     if (invalidStatusCode === 401) {
-      cy.get('[data-cy=app-main__empty-container]').should('be.visible');
-      cy.get('[data-cy=app-main__empty-container]').contains(
-        'Please configure the server settings to access'
-      );
+     cy.get('[data-cy=app-main__empty-container]').should('be.visible').contains(`Please configure the server settings to access`);
+
+     // Another Way to check condition
+      /*cy.get('[data-cy=app-main__empty-container]').then(($el) => {
+        expect($el).to.contain(`Please configure the server settings to access`);
+      });*/
     }
   });
 
@@ -83,19 +85,19 @@ describe('Application landing page - Invalid Token', () => {
     cy.log('** UserTimeLine **')
     cy.wait('@getErrUserTimeLine')
 
-    //and('eq', ERR_CODES.E_401);
-    .its('response.body').should('have.property','statusCode').and('eq',ERR_CODES.E_401);
+      //and('eq', ERR_CODES.E_401);
+      .its('response.body').should('have.property', 'statusCode').and('eq', ERR_CODES.E_401);
 
     cy.get('[data-cy=app-main-txt]') // 2.
-    .type('Testing the Cypress');
+      .type('Testing the Cypress');
 
     cy.get('[data-cy=app-main-btn]') // 2.
-    .click().then(()=>{
-    cy.on('window:alert', (str) => {
-      expect(str).to.equal(`Hi`)
-    });
-  });
-   // cy.wrap('@getErrUserTimeLine').its('response.body.statusCode').should('have.property', 'message').and('satisfy',message);
+      .click().then(() => {
+        cy.on('window:alert', (str) => {
+          expect(str).to.equal(`Hi`)
+        });
+      });
+    // cy.wrap('@getErrUserTimeLine').its('response.body.statusCode').should('have.property', 'message').and('satisfy',message);
 
     /*cy.wait('@getErrUserTimeLine').then((res) => {
       cy.log(`Inside the getErrProfileInfo `);
@@ -109,7 +111,6 @@ describe('Application landing page - Invalid Token', () => {
     });*/
   });
 
-  });
+});
 
 
- 

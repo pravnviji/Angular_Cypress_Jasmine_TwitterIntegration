@@ -9,7 +9,7 @@
 ## Instructions:
 Implement a `Twitter card` by using the Twitter API.
 
-1. `GET` and map data from this [Twitter post](https://Twitter.com/aboutyou_tech/status/1318536307216363520)
+1. `GET` and map data from this
 2. Show profile informations of the person posted as in Twitter
 3. Show text of the post as in Twitter
 4. Link Hashtags as in Twitter

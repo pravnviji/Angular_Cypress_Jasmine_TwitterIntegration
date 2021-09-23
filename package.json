@@ -1,11 +1,11 @@
 {
-  "name": "ay-code-challenge",
+  "name": "AngularAssesment",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
     "server": "npm start --prefix ./server/",
-    "build": "ng build",
+    "build": "ng build ",
     "test": "ng test --code-coverage",
     "lint": "ng lint",
     "prod": "ng build --prod",
@@ -14,7 +14,7 @@
     "build:stats": "ng build --stats-json",
     "format:test": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --list-different",
     "format:write": "prettier \"projects/**/*.{ts,html,md,scss,json}\" --write",
-    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/ay-code-challenge/stats.json",
+    "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/AngularAssesment/stats.json",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
