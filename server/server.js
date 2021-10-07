@@ -64,7 +64,6 @@ app.get('/user_timeline', (req, res) => {
 
 app.get('/tweets', (req, res) => {
     console.log('tweets');
-    const params = { tweet_mode: 'extended', count: 10 };
     var url =
         `https://api.twitter.com/2/tweets/${user_id}`;
         client

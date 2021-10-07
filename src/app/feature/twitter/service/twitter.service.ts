@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { HttpRequestService } from '../../../core/http/http-request.service';
-import { ITweetUserProfile, ITweetUserHeadlines, TtweetUserProfile, TtweetUserHeadlines, TpostTweet } from './twitter-feed.interface';
+import { TtweetUserProfile, TtweetUserHeadlines, TpostTweet } from './twitter-feed.interface';
 import { Logger } from '../../../core/logger.service';
 
 @Injectable({
